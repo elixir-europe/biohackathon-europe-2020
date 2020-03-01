@@ -1476,6 +1476,8 @@ body.is-menu-visible {
 		width: 100%; 
 		height: 100%;
 		opacity: 50%;
+		-moz-opacity: 0.5; /* Firefox and Mozilla browsers */
+		-webkit-opacity: 0.5; /* WebKit browser e.g. Safari */		
 		filter: blur(2px);
 		-webkit-filter: blur(2px);
 	}	

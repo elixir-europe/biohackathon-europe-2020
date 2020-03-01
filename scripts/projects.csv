@@ -1,0 +1,424 @@
+#,Authors,Title,paper,Hacking topic,Leads,Research area alignment,Expected Outcomes,Expected Audience,Nominated_participant,Number of Expected hacking days,Time,Decision
+1,Frederik Coppens,Interoperable Workflows for Communities,,Interoperable Workflows for Communities,"Frederik Coppens
+ Björn Grüning","ELIXIR Tools Platform
+ ELIXIR Interoperability Platform
+ ELIXIR Galaxy Community
+ EOSC-Life
+ GA4GH
+ All ELIXIR Communities","- increased awareness of the interoperability stack for tools and workflows ELIXIR is developing and will be supporting in EOSC
+ - more workflows available in this ecosystem
+ - more communities / scientific domains integrated in this ecosystem
+ - feedback on further development of the ecosystem","researchers developing workflows
+ expected interaction with experts in conda, containers, Galaxy (tools), nextflow, registries,","Paolo Di Tommaso Nextflow Lead
+ Marius van den Beek Galaxy Tools & Workflows",4,"Mar 22, 11:03",
+2,Rob Hooft,ELIXIR Data Stewardship Wizard: Templating Data Management Plans and integrating Software Management,,Funders templates for Data Management Plans & Adding Software Management Topics to the Data Stewardship Wizard,"Marek Suchánek;
+ Rob Hooft;","The Data Stewardship Wizard is proposed as a way of presenting ELIXIR Data Management Resources (databases, tools, etc) to ELIXIR users in the submitted proposal for ELIXIR-Converge. The work proposed here is complementary to the work that will be performed in that project, but it will be possible to use the BioHackathon time also to refer to more ELIXIR services in the Wizard knowledge model, working on the preliminaries for the goals in ELIXIR-Converge (the recently submitted ELIXIR Data Management proposal).","* Templates for Science Europe and H2020 used by Data Stewardship Wizard to generate DMPs.
+ * New expertise in the Wizard knowledge model
+ * New ideas for future integrations based on input from participants
+ * Extending Knowledge Model with Software Management relevant topics","We expect to work with any ELIXIR-related data stewards and experts who have input on the knowledge model and/or the templates for funders, or who would simply like to learn how to add expertise to the system.","It would be useful to have a person from one of the major funders or funding platforms, e.g. Marie Timmermann from Science Europe may be able to recommend one of her colleagues. They may not stay for other hackathon subjects.",4,"Mar 29, 12:25",
+3,Jon Ison,bio.tools & EDAM drop-in hackathon & discussions,,bio.tools & EDAM drop-in hackathon & discussions,"Jon Ison
+ Hans Ienasescu",Aligns with ELIXIR Tools Platform and other end-users of bio.tools and EDAM ontology.,"1. Definition of EDAM conceptual relationships and plans on how to leverage these within bio.tools to improve content quality and optimise the registration process.
+ 2. Putting pubfetcher into the bio.tools curation process.
+ 3. Optimising EDAMMap and EDAM Browser in light of user testing.
+ 4. Technical planning for the GitHub-based content management architecture.","programmers, ontologists, technical project managers","Hans Ienasescu, (bio.tools expert)
+ Veit Schwämmle, (bio.tools & EDAM expert)",4,"Apr 02, 10:13",
+4,Herve Menager,Improve the support of Common Workflow Language in Galaxy,,Native loading of Common Workflow Language tool and workflow descriptions in Galaxy,"Hervé Ménager, John Chilto, Michael Cruso,","ELIXIR Interoperability Platform
+ ELIXIR Tools Platform
+ ELIXIR Compute Platform
+ ELIXIR Galaxy Community
+ ELIXIR Marine Metagenomics Community","1) Improved support for importing CWL tool and workflow descriptions into Galaxy.
+ 2) This support is merged into the main Galaxy codebase and is part of a future release of Galaxy","Software developers with either Python or Web Frontend development skills (especially JavaScript), with or without an initial experience of development in Galaxy and/or CWL.","Nicola Soranzo, Galaxy core developer
+ Michael R. Crusoe,, CWL expert
+ Hervé Ménager,, CWL leadership team",4,"Apr 02, 13:37",
+5,Manuel Bernal Llinares,Support tools for rapid adoption of Bioschemas (and Schema.org) metadata through Identifiers.org,,Development of tools for supporting Bioschemas Metadata,Manuel Bernal Llinares,ELIXIR Interoperability Platform,"The outcome of this project will be a fast lightweight javascript widget for searching and visualising metadata related to a given Compact Identifier, which can easily be integrated within Identfiers.org or third party web applications.","This project is expected to attract the attention of the bioinformatics community who are interested in working with any of the following technologies: Javascript, HTML5, CSS3, Java, Python, Django, Shell Script, Kubernetes and Google Cloud.","Sarala Wimalaratne;; identifiers.org / Bioschemas expert
+ Javier Ferrer Gómez;; Javascript, Angular, Java, Python
+ Nick Juty;; identifiers expert",4,"Apr 03, 14:37",
+6,Marek Ostaszewski,Disease and pathway maps for Rare Diseases,,Development of cross-resource workflows helping to explore and explain mechanisms of Rare Diseases,"Laura I. Furlong
+ Research Programme on Biomedical Informatics (GRIB)
+ Hospital del Mar Medical Research Institute (IMIM)
+ DCEXS, Pompeu Fabra University (UPF)
+ Carrer del Dr. Aiguader, 88, 08003 Barcelona, Spain
+ email:
+ 
+ Joaquin Dopazo
+ Clinical Bioinformatics Area, Director
+ Fundacion Progreso y Salud
+ CDCA, Hospital Virgen del Rocío
+ c/Manuel Siurot s/n, 
+ 41013, Sevilla, Spain
+ email:
+ 
+ Marek Ostaszewski
+ Research Fellow
+ Université du Luxembourg
+ Luxembourg Centre for Systems Biomedicine (LCSB)
+ 6, avenue du Swing
+ L-4367 Belvaux, Luxembourg
+ email:","This biohackathon aligns with the following ELIXIR platforms: data, tools and interoperability. ELIXIR communities which may find it relevant are Human Data and Rare Diseases.","We expect to deliver a working prototype of a search and visualization interface that, given the search criteria and, if available, omics data, will scan the considered resources, combine the results into a molecular diagram, which then will become available for visualization in MINERVA and Hipathia platforms, linking the results to the sources in DisGeNET and other repositories. 
+ 
+ A suggested workflow will look as follows:
+ 1. For a rare disease from Orphanet, retrieve the genes/variants from DisGeNET
+ 2. Interrogate disease maps via MINERVA to retrieve pathways in which these genes/variants are involved
+ 3. Identify omics data for the RD from omics data repository (e.g. transcriptomics)
+ 4. Feed output of 3 and 2 into Hipathia for modelling disease processes
+ 5. Use MINERVA for visualization of identified disease maps, and/or for integration of retrieved data
+ 
+ If successful, we plan to continue this collaboration and aim for at least one bioinformatics paper. We will actively explore the possibility of establishing this search and visualization engine as part of ELIXIR services.","- Bioinformaticians with expertise in handling clinical data to define and consult use-cases for the RD mechanisms search
+ - Bioinformaticians skilled in information retrieval, knowledge exchange and systems biology formats (SBML, SBGN, BioPAX) to design and implement the intra-tool pipelines
+ - Bioinformaticians skilled in omics data retrieval and integration, to design and implement the data-level pipelines, including RD-connect
+ - Web developers proficient with JavaScript to implement the search and visualization interface based on existing MINERVA plugin architecture
+ 
+ Importantly, the organizers ensure participation of 1 web developer, and the following bioinformaticians: 2 for clinical data handling, 1 for knowledge retrieval and exchange and 2 for omics data handling. This way we secure the critical mass necessary for the biohackathon.","1. Steve Laurie, CNAG, expert in the RD research and member of the RD-connect resource, omics data integration
+ 2. Joaquin Dopazo, expertise in pathway modeling in translational medicine
+ 3. Piotr Gawron, expertise in knowledge visualization and translational medicine data formats",4,"Apr 04, 15:44",
+7,David Salgado,Copy Number Variation Beacon,,Facilitate interpretation of CNV through Beacons,"Michael Baudis
+ David Salgado
+ Gary Saunders",This project is principally aligned with the ELIXIR h-CNV Community and the ELIXIR Beacon GA4GH Driver Project. Is it also aligned more generally with the ELIXIR Human Data Communities.,"1. Functional Beacon sharing CNV data
+ 2, Registering this Beacon to the ELIXIR Beacon Network
+ 3 Controlled vocabulary / Common data elements used to describe a CNV
+ 4.. Specifications
+ 5.. Draft implementation","Anyone interested in CNV, Beacon, Interoperability, controlled vocabulary...","Michael Baudis
+ David Salgado
+ Gary Saunders",4,"Apr 05, 07:01",
+8,Hidemasa Bono,TogoEx: the integration of gene expression data,,Development of TogoEx,"Hidemasa Bono
+ Hiromasa Ono",Omics researches that can be integrated with transcriptome data.,Gene expression matrix (genes vs samples) for silkworm and rice with the data viewer which was originally developed for human and mouse reference expression dataset.,"Bioinformatists interested in analyzing transcriptome data for agricultural important organisms.
+ Ontologists for biological samples from those.","Hidemasa Bono 
+ Takeya Kasukawa Specialist of the system for transcriptome data
+ Hideki Hirakawa Specialist in plant genomics and bioinformatics",4,"Apr 05, 07:59",
+9,Yo Yehudi,Towards seamless Galaxy and InterMine integration: Enhanced region analysis,,Towards seamless Galaxy and InterMine integration: Enhanced region analysis,Yo Yehudi -,Interoperability for Bioinformatics tools,"In the short term, we expect to produce a working prototype of the direct data upload from Galaxy to InterMine at this hackathon. This effort is meant to be the first step towards the tighter interoperation between InterMine and Galaxy. 
+ 
+ In the future, we plan to allow arbitrary datasets to move freely between both, and for Galaxy users to be able to create their own InterMine instances in the cloud: these will be loaded with their data from Galaxy and complementary external data. This would allow Galaxy users to benefit from InterMine’s data integration and enrichment process, as well as providing analysis and visualisation tools, with a wealth of interoperable web-services for programmatic access to their data.","Galaxy and InterMine users to gather additional requirements.
+ Galaxy developers to help create the Galaxy data export tool
+ Java or Clojure developers to help work on the InterMine side of importing the data","Daniela Butano / University of Cambridge /
+ Anthony Bretaudeau / Galaxy",2,"Apr 05, 10:26",
+10,Daniela Butano,Automating Identifiers.org registration and updates to increase FAIR-ness within ELIXIR and beyond,,Automating Identifiers.org registration and updates,"Daniela Butano - InterMine, UK Node
+ Sergio Contrino - InterMine, UK Node","This project aligns with the ELIXIR Interoperability Platform, and involves Identifiers.org (ELIXIR Infrastructure and Recommended Interoperability Resource), UniProt (ELIXIR Core Resource), InterMine (ELIXIR Recommended Interoperability Resource) and Bioschemas (ELIXIR Core Project).","1.Facilitated registration of data resources in Identifiers.org
+ 2.Identifiers.org automatically updated with any changes to resources",Data resource providers to help define the metadata that should describe the data provided and to prototype endpoints for their resources. Programmers to prototype the crawler.,"For UniProt (has agreed): Jerven Bolleman - UniProt expert, Swiss Node
+ For Identifiers.org (has agreed): Sarala Wimalaratne OR Nick Juty - Identifiers.org expert, ELIXIR Hub",4,"Apr 05, 10:46",
+11,Mateusz Kuzak,Designing a Software Management Plan as ELIXIR guidelines,,Designing a Software Management Plan as ELIXIR guidelines,"Mateusz Kuzak
+ Fotis Psomopoulos
+ Allegra Via","Tools Platform, Training Platform, Software Development Best Practices WG","The direct outcome of this project is going to be a draft checklist of a Software Management Plan (SMP). This will be further reviewed within the ELIXIR Software Best Practices WG, in conjunction with the involved stakeholders (i.e. from the ELIXIR network, relevant Journals as well as potential funding agencies such as EC). Mid-term goal of the project is to have an established SMP in place, that would be a requirement in at least one network. Moreover, the topics of the Management plan will be also included in the existing training material as extensions, so that targeted training can be provided.","Participants: Software developers, Research Software Engineers, Researchers
+ Knowledge: GitHub, Data Management Plan, Software Development, Software Engineering Practices","Dimitris Bampalikis
+ Neil Chue Hong (Software Sustainability Institute) or other expert from ReSA community",4,"Apr 05, 11:21",
+12,Yo Yehudi,BioJS 3.0: Better standardisation and easy data vis,,BioJS 3.0: Better standardisation and easy data vis,Yo Yehudi - and Dennis Schwartz -,Tools,"In the shorter term, we hope to finalise the 3.0 WebComponent standards for BioJS and leave the hackathon with upgrades for popular components in-place, focusing on components maintained by ELIXIR hackathon attendees. 
+ 
+ Longer term, our goal is to ensure that the BioJS registry is welcoming to anyone without a computational background who wishes to represent their biological data in a web browser, ideally with a simple “copy-and-paste two or three lines of code” workflow to embed a component on a webpage.","Standards review & Component upgrade: Maintainers of JavaScript visualisations
+ User testing: Biologists and bioinformaticians","Dennis Schwartz / BioJS core developer /
+ Yo Yehudi / BioJS core developer /
+ Sarthak Sehgal / BioJS core developer / is one of our core maintainers based outside the EU. We would be happy to seek external funding for his travel if it would be possible for ELIXIR to cover accommodation and registration.",4,"Apr 05, 12:25",
+13,Helena Rasche,Development of a suite of web tools to facilitate contribution to the training materials for Galaxy,,User-friendly contribution of Galaxy Training Materials,"Helena Rasche
+ Saskia Hiltemann
+ Bérénice Batut","Training Platform, Galaxy communities, tool, interoperability","Evaluation of contribution barriers for the Galaxy Training Materials
+ Evaluation of current strategies of different training communities to support their contributors
+ Web service to generate tutorial skeleton from a link to a Galaxy workflow
+ Exploration of possibility for the customization of Monod to support Galaxy Training Material templates and generate live website previews","Type of participants: programmers, web developers, trainers
+ Knowledge: Galaxy training materials, markdown, github
+ Skills: JavaScript, React.js, python","Helena Rasche - Systems administrator for usegalaxy.eu + their Training Infrastructure as a Service, and expert on Galaxy training materials infrastructure 
+ Saskia Hiltemann - Co-developer of the Galaxy training materials infrastructure and frequent contributor of training materials
+ Bérénice Batut - Co-developer of the Galaxy training materials infrastructure and familiarity with Monod",4,"Apr 05, 14:28",
+14,Saskia Hiltemann,Scalable delivery of FAIR training in Life Sciences using Galaxy and the Carpentries training material,,Gallantries: Scalable delivery of FAIR training in Life Sciences,"Saskia Hiltemann
+ Bérénice Batut
+ Helena Rasche
+ Mateusz Kuza
+ Fotis Psomopoulos","Training Platform, Galaxy, Bioinformatics Training, Train the Researcher","Direct outcomes of this project include: (a) at least two additional end-to-end Gallantry lessons that will have been evaluated by the involved communities (Galaxy, The Carpentries), (b) interaction and direct involvement of additional relevant communities in the project (such as ELIXIR, GOBLET and H3ABioNet), and (c) evaluation and potential pilot case of scaled up hybrid training within the newly involved networks.","Type of participants: Bioinformaticians, Instructors, Trainers in Life Sciences
+ Knowledge: Single Cell transcriptomics, ChIP-Seq, Variant Analysis and/or Machine Learning
+ Skills: Markdown, GitHub, Galaxy, Training","1) Fotis Psomopoulos - Lesson developer for the Carpentries and Gallantries project member
+ 2) Mateusz Kuza - Instructor trainer for the Carpentries and Gallantries project member
+ 3) Saskia Hiltemann - Galaxy training materials expert and Gallantries project member",4,"Apr 05, 14:29",
+15,Stuart Owen,Data Management toolkit,,Data Management toolkit,"Stuart Owen
+ Frederik Coppens","Data Platform
+ Compute Platform - EOSC-Life
+ Interoperability Platform - FAIRplus, Infradev-3
+ ELIXIR-CONVERGE",A Data Management toolkit that assembles various existing ELIXIR tools and services and ensures that these services are well connected across ELIXIR Nodes.,"Software developers, data analysts","Inge Jonassen (Data Management)
+ Niall Beard (Bioschema's, Development)
+ Cyril Pommier (Usecases, COPO, Development)",4,"Apr 05, 16:04",
+16,Nacer Mohellibi,Plant Genotyping Metadata Standard Specification Hackathon,,FAIR metadata standard for genotyping data exchange and interoperability with phenotyping data.,"Nacer Mohellibi, Uwe Scholz","- Plant Sciences
+ - Interoperability
+ - ELIXIR Deposition Databases : EVA 
+ - Address the lack of existing standard or API to exchange plant genotyping data in a FAIR compliant way
+ - Development of community standards supporting metadata validation (Elixir Validation IS)
+ - FONDUE Plant Sciences Community-led Implementation Study of ELIXIR (lead by U. Scholz)
+ - Continuation of the BRAPI and MIAPPE alignment that successfully emerged from the 2018 biohackathon (Plant Validation track) and will provide the first step of an improvement of the FAIRness of genotyping data.","- Produce a 1st version of the Plant Genotyping standard specification (including Polymorphism Discovery).
+ - Through FONDUE 1st deliverable: build genomic data sets using the standard we started to define during the hackathon.","Audience:
+ - Plant Genotyping Data Managers
+ - API developpers with experience of JSON schema and data validation
+ - Ontologists
+ - Breeders
+ Required skills:
+ - Experience in manipulating genotyping datasets
+ - Semantics and especially ontologies concepts
+ - API developpment
+ - Data management","1.Iain Milne (JHI,, API developper & Data Manager, Experience in manipulating genotyping datasets, Semantics, ontologies concepts, JSON schema, data validation)
+ 2.Guilhem Sempere (Southgreen,, Information System and API developper / JSON Schema)
+ 3.Bilal El Houdaigui (URGI,, API developer, JSON Schema)",4,"Apr 05, 16:06",
+17,Venkata Pardhasaradhi Satagopam,Text-mining and semantic web technologies,,Text-mining and semantic web technologies for construction of gene/protein networks and disease maps,"Venkata Satagopam  >, Johanna McEntyre, Aravind Venkatesan, Carlos Vega Moreno","ELIXIR platforms: Data/Interoperability 
+ ELIXIR Communities: Rare Disease/Proteomics/Metabolomics","We look forward to the development of a common integration between cross-resource literature knowledgebase projects, delivering advancements on interoperability and accessibility of text-mining resources by developing an interface by extending existing APIs and application of standards, for example, W3C Web Annotation Data Model. This common interface will be tangentially beneficial for the different use cases that, for example, creation of interaction networks and disease maps and annotate corresponding entities, relationships and events through such knowledge databases. We are planned to submit a manuscript on Biohackathon outcome. Between the potential achievements, we could find an extended and lasting collaboration between institutions as well as scientific literature contributions, exploring the deployment of joint multi-institutional services.","Bioinformaticians and developers working in the areas of text-mining, network biology and semantic web technologies.
+ 
+ By all means, organisers commit to the proposal with the participation and contribution of developers, bioinformaticians for the event to ensure the presence of enough human resources and provide momentum during the biohackathon. 3 people from the University of Luxembourg and 2 from EMBL-EBI will participate in this Biohackathon topic.","Dr. Lars Juhl Jensen, University of Copenhagen,
+ Dr. Martin Krallinger, CNIO,",4,"Apr 05, 16:42",
+18,Leyla Jael García Castro,Knowledge graph for scholarly publications in Bioschemas,,Knowledge graph for scholarly publications in Bioschemas,"Leyla Garcia
+ Juliane Fluck
+ Dietrich Rebholz-Schuhmann","Interoperability, Bioschemas","* Knowledge graph from the existing markup and crawler
+ * Selection of an evaluation case
+ * Findings regarding the selected evaluation case
+ * Beyond the hackathon, the work done here can be used as a proof-of-concept and model for a Bioschemas knowledge graph
+ Note: If not crawler available or not usable markup, we will work on a similar project but with different data.","* People with knowledge on Bioschemas, knowledge graphs, semantic technologies, and machine learning","* Bernd Müller Java, indexes, semantic web
+ * Benjamin Wolff Java, indexes, semantic web
+ * T.B.D",3,"Apr 06, 20:01",
+19,Victoria Dominguez Del Angel,How to setup a local-EGA for Human Data with regulatory constraints?,,Install a local EGA instances in the Cloud Federation Biosphere,"Jordi Rambla, Victoria Dominguez del Angel, Christophe Blanchet, David Salgado, Olivier Collin","This project is mainly aligned with the Human Data communities. 
+ h-CNV community
+ Platforms :Data, Compute and Tools
+ ELIXIR::GA4GH projects alignment","- Deployment a local EGA instance in the Cloud Federation Biosphere with publically available Human data
+ - Creation of the Image
+ - Improve best practice documentation on “how to” deployment a Local EGA in a Cloud : https://localega.readthedocs.io/en/latest/code.html
+ - “How to use” Loca EGA from user’s prespective
+ - Define and propose solutions on Human data sharing issues taking into account the French Legislation","Bioinformaticians, computer scientists, docker experts, cloud brokers","Christophe Blanchet,, Cloud expert
+ Jordi Rambla,, EGA expert
+ Victoria Dominguez del Angel,, help on cloud brokering and documentation",4,"Apr 07, 07:31",
+20,Argyrios Alexandros Gardelakos,Development of a visualization library for real-time monitoring of computational workflows,,Development of a visualization library for real-time monitoring of computational workflows,"Argyrios Alexandros Gardelakos, 
+ Georgios Kostoulas",In alignment with ELIXIR tools and compute platforms,A working prototype to visualize and monitor the execution of workflows,"Bioinformaticians and programmers, but everyone with technical background is more than welcome","1) Georgios Ntalaperas, Programmer, Data transformation expert
+ 2) Foivos Gypas, Programmer, Bioinformatics expert (Swiss Institute of Bioinformatics)",4,"Apr 07, 09:06",
+21,Alasdair Gray,"Bioschemas: Markup, Support Tooling, and Training Material",,"Bioschemas: Markup, Support Tooling, and Training Material","Alasdair Gray
+ Leyla Garcia
+ Nick Juty
+ Sarala WImalaratne
+ Kenneth McLeod","Interop, Data, Tools, Training
+ Touches all communities","1) Markup of life sciences resources (data, tools, training), developing new Bioschemas profiles and types as required
+ 2) Development of support tools: Creation and embedding of markup, Validation of markup
+ 3) Enhanced searching of life sciences resources based on Bioschemas markup: Crawling and indexing, Generation of life sciences knowledge graph, Rich search results
+ 4) Training material for development and exploitation of Bioschemas markup using available tools","Programmers, resource providers, trainers.
+ We are particularly keen to connect up the hacking activities with the bio.tools and validation activities.","Alban Gaignard: bio.tools developer for semantic web applications
+ 
+ Kenneth McLeod: leading development of the Bioschemas crawler, generator, and validator
+ 
+ Ricardo Arcila: lead developer of the Bioschemas GoWeb tool used for the generation of Bioschemas profiles",4,"Apr 07, 09:06",
+22,Alasdair Gray,Data Ingestion Pipeline for the IDP Community,,Representing and consuming protein feature records with Bioschemas,"Ivan Mičetić
+ Alasdair Gray","Interop, IDP Community","1) Source datasets marked-up with Bioschemas markup
+ 2) Crawler to consume Bioschemas markup from a given set of sources
+ 3) Data ingested into the MobiDB and DisProt
+ 4) Expose Bioschemas markup on IDP datasets like MobiDB and DisProt 
+ 5) Paper describing the achievements and the benefits of the work","IDP Community data resource providers, programmers for crawling the markup and transforming it into the the MobiDB database.","Ivan Mičetić,, MobiDB 
+ Balint Mészáros,, MFIB, DIBS
+ Kenneth McLeod,, Bioschemas Crawler",3,"Apr 07, 09:17",
+23,Marc Hanauer,Implementation of Bioschema for Orphanet and Orphadata,,Implementation of Bioschemas or Orphanet and Orphadata,"Marc Hanauer
+ David Lagorce","Elxir Core Data Resources
+ Rare disease Elixir Communities
+ Federated Data","Improve interoperability of our core data resources
+ FAIRdatapoint avalaible","FAIR expert
+ PHP dev. (Orphanet's website)
+ data model (RDF/Ontology)","Rajaram Kaliyaperumal (FAIR expert)
+ Celine Rousselot (Orphanet PHP dev lead)
+ David Lagorce (Orphanet/Orphadata project manager & Dev)
+ Marc Hanauer (Orphanet CTO)
+ 
+ (Please note: no travel fundings for Rousselot, Lagorce and Hanauer, only accommodation)",4,"Apr 07, 09:52",
+24,Susheel Varma,Operationalising the ELIXIR-GA4GH Cloud and AAI Driver Project,,Operationalising the GA4GH Cloud and AAI Driver Project,"Alexander Kanitz
+ Ania Niewielska
+ Yacine Khettab
+ Marius Dieckmann","ELIXIR Compute/Tools/Data/Interop
+ GA4GH Cloud Work Stream
+ ELIXIR Human Data (Rare Disease, Federated Data, CNV)
+ ELIXIR Marine Metagenomics
+ ELIXIR Proteomics","Development and Kubernetes-based deployment of a user-facing web client PoC, leveraging GA4GH Cloud API services to allow end-users to pick workflows, modify parameters, select input data, trigger workflow execution, query run status and access results. User identity manifestation via ELIXIR AAI/OIDC and controlled access to services via OAuth2. Official release to ELIXIR community and multi-site production-grade deployment of the user client and ELIXIR GA4GH cloud services planned for 2020.","Audience:
+ - Web developers
+ - DevOps
+ 
+ Useful skills:
+ - Web development (preferably Python, Go and/or Angular)
+ - REST microservices
+ - Kubernetes
+ - CI/CD
+ - OpenID Connect / OAuth2 / AAI","Alexander Kanitz / project lead & web development
+ Ania Niewielska / software developer
+ Marius Dieckmann / software developer & Kubernetes expert
+ Yacine Khettab/ DevOps & container specialist",4,"Apr 07, 10:16",
+25,Saskia Hiltemann,Galaxy Training Material content expansion,,Expansion of training materials for under-represented Galaxy communities,"Bérénice Batut
+ Helena Rasche 
+ Björn Grüning 
+ Saskia Hiltemann","Training Platform, Galaxy, Bioinformatics Training, Train the Trainer, Metabolomics, Marine Metagenomics, Rare disease","1) Discussion with the different ELIXIR communities regarding training needs
+ 2) Mentoring of interested communities
+  - Teaching use of Galaxy Training Materials infrastructure
+  - Planning the development of new materials
+  - Identifying useful resources for their community
+  - Assistance getting started developing new training materials
+  - Teaching training best practices
+ 3) Contributions from underrepresented communities to the GTN
+ 4) Better training material for ELIXIR Galaxy communities","Type of participants: training developers, trainers and members of the different ELIXIR communities
+ Knowledge: training needs
+ Skills: none (optional: GitHub, markdown)","1) Bérénice Batut - Community manager of Galaxy Training Network and co-developer of the training materials infrastructure.
+ 2) Anne Fiebig - Plant scientist developing plant genomics community in Germany.
+ 3) Helena Rasche - Developer of UseGalaxy.eu’s training infrastructure-as-a-service (TIaaS) and frequent contributor of training materials.",4,"Apr 07, 10:28",
+26,Gianmauro Cuccuru,Development of a Pulsar toolkit,,Development of a suite of tools to validate and enable a remote task execution service,"Gianmauro Cuccuru
+ Marco Antonio Tangaro","Federated Compute, Galaxy, Bioinformatics","Having a network of trusted pulsar servers across Europe to leverage computational power more efficiently in ELIXIR
+ Distributing jobs based on tool metrics and ELIXIR AAI attributes through Europe","Type of participants: Developers, DevOps, System Administrators
+ Knowledge: basic Galaxy admin knowledge, Job scheduling
+ Skills: Ansible, Bash, Python","Gianmauro Cuccuru (DE) - Ansible, Bash, Cloud computing, Docker, Galaxy, Python
+ Miroslav Ruda (CZ) - Bash, Distributed job scheduling, Grid computing
+ Marco Antonio Tangaro (IT) - Ansible, Bash, Cloud computing, Docker, Galaxy, Python",4,"Apr 07, 12:09",
+27,Denise Slenter,FAIR Identifier Mapping: Building Bridges Between Communities,,Extending BridgeDb identifier mapping functionalities,"Denise Slenter,
+ Chris Evelo,
+ Egon Willighagen,
+ Alasdair Gray","Interoperability, Data
+ Rare Disease, Metabolomics, but relevant for all Communities","1. Improve the FAIR metrics of existing BridgeDb ID mapping databases
+ 2. Automation of generation of Scientific Lenses for chemical compounds
+ 3. Expand integration of BridgeDb for workflow systems (Galaxy and/or KNIME)
+ 4. BridgeDb application to create link sets from Bioschemas (MolecularEntity) annotation
+ 5. Faster identifier mapping (with Apache Derby replacement)
+ 6. ID mapping data exchange using nanopublications, allowing explicit provenance being stored","ELIXIR Core Resource representations (mapping need and mapping providers)
+ Semantic Web and interoperability experts
+ Technicians with knowledge of Docker and/or OpenAPI
+ Workflow developers (Galaxy, KNIME, CWL)
+ Java developers","1. Emma Schymanski - Luxembourg Centre for Systems Biomedicine -, Metabolomics and Toxicology expert, and provider of specific use case + data
+ 2. Nick Juty - University of Manchester -, identifiers.org and Compact Identifiers expert
+ 3. Tobias Kuhn - Free University of Amsterdam -, nanopublications",4,"Apr 07, 12:44",
+28,Ryota Yamanaka,Mapping RDF Graphs to Property Graphs towards Practical Applications,,Application of property graph mapping and graph algorithms to federated RDF datasets,"Ryota Yamanaka
+ Shota Matsumoto
+ Hirokazu Chiba
+ Ramona Röß","This toolkit utilises the existing federated data shared in RDF. We will initially focus on human genetics data (disease annotation, gene mutation information, etc.) from projects such as KGX (Knowledge Graph Exchange) <https://github.com/NCATS-Tangerine/kgx>, Med2RDF <http://med2rdf.org/>, and DisGeNET <http://www.disgenet.org/>. However, this toolkit can be also applied to the RDF datasets in other research subdomains.","- G2GML mapping definitions for several existing datasets (KGX, Med2RDF, DesGeNET)
+ - Generated property graph datasets for the projects above
+ - Sample analysis methods on graph databases and the results
+ - Paper to describe the practical use of G2GML","programmers (JavaScript, SPARQL, graph query languages)
+ ontologists, data modelers (RDF, property graph)
+ data analysts, algorithm developers (graph algorithms, machine learning)","Shota Matsumoto (Japan)
+ Ramona Röß (Germany)
+ Ryota Yamanaka (Thailand)",4,"Apr 07, 16:24",
+29,Toshiyuki Yokoyama,Semantic recommendation system for life sciences publications,,Recommendation system for life sciences publications,"Mustafa Anil Tuncel, Toshiyuki Yokoyama",ELIXIR platform: Tools,"1. A service that recommends articles to users by collecting articles and grants information from Europe PMC articles API and academic grants API.
+ 2. A web interface that shows the list of recommended papers and visualizes relationships between them.","Researchers, Engineers, Ontology expert, JavaScript, Graph Database, RDF, Europe PMC","1. Toshiyuki Yokoyama, The University of Tokyo,, JavaScript/React, Ruby/Python/Bash, RDF/SPARQL, HTML/CSS 
+ 2. Mustafa Anil Tuncel, ETH Zurich,, Backend, Python, Bioinformatics, SPARQL, RDF
+ 3. Ivan Topolsky, ETH Zurich and SIB,, Backend, SysOps, DevOps, RaspPi servers, Docker containers, Web servers, Service Integration and Management, Perl/Bash/Python, HTML/CSS.",4,"Apr 07, 16:46",
+30,Tazro Ohta,Implementation and sharing of workflows for personal genomic data on DDBJ's workflow execution system SAPPORO,,Implementation and sharing of workflows for personal genomic data,Tazro Ohta,"tools, compute, data, personal data sharing e.g. EGA/JGA","This proposal is based on the idea of sharing workflows, so the outcomes may vary with the people we can work with. If we could have audiences who already have workflows that analyze the personal genomic data, we will describe them in CWL, and then test on our system running on DDBJ's HPC platform. We can help to package tools in containers for that as well, but it will be more productive if there were the BioConda/BioContainers team and/or the Elixir tool registry team. We already have CWL workflows that run on our system, so we can share our workflows and test if they are truly portable when there is a workflow execution platform team such as Galaxy. Our system can run workflows for non-human data as well, so we can import and test the workflows already described in CWL such as the MGnify workflow developed by the EBI Metagenome team or pgap pipeline developed by NCBI. We would be happy to present our system in details and help to deploy if there were people interested in having a similar system on their computing platform.","Developers who are familiar with workflow languages such as CWL
+ Data producers who are interested in sharing personal genome data","Hirotaka Suetake, main developer of the SAPPORO system
+ Manabu Ishii, CWL project commiter 
+ Tazro Ohta, SAPPORO project lead",4,"Apr 07, 16:59",
+31,Ivan Topolsky,Developing Semantic Life Sciences Publications Subscription System,,Developing a subscription system for our Semantic Life Sciences Publications Subscription System,"Kim Philipp Jablonski,
+ Ivan Topolsky",Elixir platform: Tools,"- A semantic subscription system that notifies the researchers whenever a relevant paper or a grant is available.
+ 
+ - A web interface that allows researchers to subscribe in certain topics of life sciences from the ontology.","Front-end development, Knowledge on RDF, Backend","1. Kim Philipp Jablonski, ETH Zurich,, Backend, Python.
+ 
+ 2. Ivan Topolsky, ETH Zurich and SIB,, Backend, SysOps, DevOps, RaspPi servers, Docker containers, Service Integration and Management, Perl/Bash/Python, Mail servers administration.
+ 
+ 3. Mustafa Anil Tuncel, ETH Zurich,, Backend, Python, Bioinformatics, SPARQL, RDF, C-SPARQL, Stream databases",4,"Apr 07, 17:12",
+32,Tomas Klingström,Updating the Galaksio workflow management interface for Galaxy and migrating it to Vue.js,,Updating and migrating a simplified workflow management interface for Galaxy,Tomas Klingstrom,"Galaxy Working Group
+ (making bioinformatics more accessible for biologists)","The overall objective is to provide a simplified interface for running best practice workflows hosted on Galaxy servers. Specifically the hackaton will:
+ *Migrate Galaksio to a more sustainable codebase.
+ *Bring together key skills necessary to finalize some specific issues in the code.
+ *Contribute to creation of a ""component library"" in Vue as components can be shared between Galaxy, Galaksio and other bioinformatics software using Vue.js (or where Vue.js can be easily added).","Galaxy administrators, developers and high level users.
+ Researchers knowledgeable in JavaScript (more specifically Vue.js and/or Angular.js).","1. Rafael Hernández de Diego, Is the original programmer behind Galaksio and a very skilled programmer in both front-end and back-end development. His current work is demanding but the BioHackaton can hopefully be seen as a bit of a prestige collaboration for his current employer and thus make him available to us for this.
+ 
+ 2. Marius van den Beek, One of the key developers in Europe for Galaxy with many major contributions to both Galaxy and Galaksio. (Note: Works in Paris)
+ 
+ 3. Nicola Soranzo, of the key developers in Europe for Galaxy and has developed Bioblend which is used to connect tools such as Galaksio with Galaxy.",4,"Apr 07, 20:06",
+33,Wolfgang Maier,A graph database of Galaxy tool interoperability,,Development of a graph-based database of and a suggestion system for interoperable tools in Galaxy,"Wolfgang Maier,
+ Jon Ison,","ELIXIR Galaxy Community
+ ELIXIR Tools platform, Tools and Services Registry, Workflows & Interoperability groups","- a graph-based database of tools the traversal of which defines analysis workflows at various levels of tool interoperability confidence levels
+ - a public frontend for Galaxy instances for exploring networks of tools and suggesting possible workflows from analysis start and end points","Galaxy tool developers and experienced end-users & Galaxy server admins for curated content development
+ Bioinformatics operations ontologists (EDAM, bioschema) for automated content generation
+ bio.tools ecosystem developers and experts
+ Graph database developers for database layout decisions
+ Members of the Galaxy Working Group within the ELIXIR Tools Platform for integration into Galaxy","Anup Kumar,: Member of the Galaxy EU team working on deep learning models for tool suggestions
+ Piotr Jaroslaw Chmura, & Ivan Kuzmin,: bio.tools developers",4,"Apr 07, 20:39",
+34,Bjoern Gruening,Bioconda and Biocontainers helpdesk,,Bioconda and Biocontainers helpdesk,"Björn Grüning
+ Devon Ryan","ELIXIR Tools platform, Tools and Services Registry, Workflows & Interoperability groups","* more bioconda contributors = more sustainable community
+ * less bioconda/biocontainer bugs","* tool developers that want to add their tools to bioconda/biocontainers
+ * tool users that want to learn conda or complain about conda :)","* Johannes Köster
+ * Elmar Prüsse
+ * Wolfgang Maier",4,"Apr 07, 21:13",
+35,Norman Davey,Improving the interoperability of the core intrinsically disordered protein (IDP) resource,,Improving the interoperability of the core intrinsically disordered protein (IDP) resource,"Norman Davey, Institute for Cancer Research, London, UK
+
+ Damiano Piovesan, Dept. of Biomedical Sciences, University of Padua, Italy
+","ELIXIR New Community Intrinsically Disordered Proteins
+ ELIXIR data platform","The project will have the following outcomes:
+ - A set of rules for the structural classification of the raw data stored in each experimental method specific data repositories.
+ - RESTful APIs for each resource to distribute structural classification data using a standardised dissemination formats based on the Minimum Information About Disorder Experiments (MIADE) standard. 
+ - Cross-links between the resources to improve the visibility of the complementary data in each resource.
+ - A single RESTful API portal aggregating and distributing the structural classification level IDP data to streamline the integration of IDP data into the ELIXIR core data resources.","Database developers - developers from the core data repositories in the IDP field.
+ Experimentalist in IDP structural field - data producers for each of the experimental approaches tackled in the project.
+ Standards experts - researchers with a background in the development of dissemination standards.
+ FAIR experts - researchers with an understanding of FAIR approaches to data storage and dissemination.
+ Programmers - coders with an interest in RESTful APIs, storage/dissemination standards and data FAIRification.","Norman Davey, Institute for Cancer Research, London, UK
+
+ Lead developer of the Minimum Information About Disorder Experiments (MIADE) standard for IDP data dissemination.
+ 
+ Damiano Piovesan, Dept. of Biomedical Sciences, University of Padua, Italy
+
+ Lead developer of the DisProt database of IDP data
+ 
+ Cy Jefferies, EMBL Hamburg, Germany
+ 
+ Lead developer of the SASBDB database of SAX data",4,"Apr 07, 21:29",
+36,Rabie Saidi,Development of a scalable big-data framework for protein ecoding and distributed deep learning,,Bijective Encoding of Proteins In a Scalable Distributed Deep Learning Framework,Rabie Saidi,"- ELIXIR platforms: interoperability, tools
+ - ELIXIR communities: proteomics
+ - Big data 
+ - Deep learning","1- A solution for the integration between big data and deep learning frameworks, enabling users to build scalable, deep learning distributed models;
+ 2- Interpretable bijective encodings to represent protein sequences with defined good practices for protein-based prediction purposes;
+ 3- Interpretable deep learning architectures providing understanding about the structure of the data and allowing to infer functional annotations in case of absence.","- Bioinformaticians, data scientists, programmers intrested in protein data
+ - Deep learning practitioners
+ - Big data technology developers: distributed frameworks / Big Data knowledge (Apache Spark, Scala)","1- Rabie Saidi
+ Rabie is a Lead Data Scientist with large experience in Machine Learning (deep learning, prediction, clustering..), data transformation (encoding..), Big Data technologies (Spark, Zeppelin,..) and programming (scala, java,..). He is responsible for adapting and creating new technologies for descriptive and predictive purposes for protein data analytics. His Knowledge is essential for the design and the implementation of this project and also useful for other projects especially in in the contexts of interoperability and tools.
+ 
+ 2- Angela Lopez del Rio
+ Angela has already worked applying Deep Learning to protein sequences in order to build binding prediction models. Her experience is very important to bring insights on the appropriate architectures to test and on the possible issues the team could confront. Her background on Python and Keras/Tensorflow will be useful for the integration of big data and deep learning frameworks.
+ 
+ 3- Andrew Nightingale
+ Andrew has a background in biochemistry and bioinformatics. He worked for a biotechnology company specialising in structure-based drug design by NMR. He is responsible for enhancing the links between UniProt and the genomics and translational biology communities to provide clinical and/or translational context to UniProtKB.",4,"Apr 07, 23:03",
+37,Mayumi Kamada,Development of biomedical schema for data exchange for GA4GH and GEM-Japan,,Alignment of semantic biomedical data schema between Med2RDF and SEPIO,"Mayumi Kamada, 
+ Toshiaki Katayama","ELIXIR platforms: Interop (Ontology, Data sharing)
+ ELIXIR communities: Rare disease, CNVs, Federated Data",Better alignment of ontologies between Med2RDF and SEPIO for describing evidence of clinical significance related to human diseases including rare diseases and structural variations.,"Ontology experts, Human genetics and biomedical database developers, and Bio (medical) informatician with experience in clinical interpretation of genomic medicine.","Mayumi Kamada 
+ Soichi Ogishima 
+ Toyofumi Fujiwara 
+ Shuichi Kawashima 
+ Toshiaki Katayama",4,"Apr 08, 15:24",
+38,Alasdair Gray,"RO Shape Profiles, BrAPI, and Bioschemas Shapes Validation",,"RO Shape Profiles, BrAPI, and Bioschemas Shapes Validation","Simon Jupp
+ Alasdair Gray
+ Adam Cowdy","Interop
+ Elixir Validation Implementation study
+ Plant metadata submission
+ SHEX/SHACL JSON-LD Shape validation","Understanding of a wider set of validation use cases identifying their commonalities and differences
+ Extending validation to networks of resources
+ Share best practice about reporting validation errors","In general programmers interested in adopting standards for validation tools, including, but not limited to:
+ JSON schema experts
+ Plant metadata related expert (MIAPPE, PPEO…)
+ BrAPI/ISA developers
+ JSON-LD validation","Cyril Pommier, INRA,
+ Philippe Rocca-Serra, UOXF, (ISA schema)",2,"Apr 12, 10:42",
+39,Ricardo de Miranda Azevedo,FAIR maturity indicators - testing the newly developed FAIR maturity indicators for digital objects using a semi-automated framework,,Demonstration of a FAIR evaluator software to address the newly developed FAIR maturity indicators.,"RIcardo de Miranda Azevedo
+ Michel Dumontier",Interoperability tools,"The expected outcomes are to (1) demonstrate the FAIR maturity data indicators, (2) demonstrate the FAIR evaluator software and (3) demonstrate how different scientific communities can tailor indicators that are specific to their community.",Digital resource representatives,"Jen Harrow
+ Nick Juty",1,"Apr 12, 15:04",
+40,Gustavo Salazar,Nightingale,,"Develop further Nightingale, the platform and extend some of its components.","Gustavo Adolfo Salazar Orejuela, Xavier Watkins",Data Visualization of Biological Data,"2 new Nightingale components
+ Documentation for both developers and users
+ Updating the Showcase Application
+ Improve/redefine component use of lifecycle","Web Developer (JavaScript)
+ Web users of biological data
+ Designers","Aurélien Luciani JavaScript Developer - One of the original contributors to the project. Main Developer of the DataLoader and its adapters.
+ Daniel Rice JavaScript Developer. Contributor to UniProt Nightingale components.",4,"Apr 16, 08:11",
+41,Juan Caballero,FAIR applications,,Development and implemetantion of FAIR app standards,Juan Caballero,large data management analysis and interoperability,"At Databiology we have created CIAO, our framework to create and deploy biomedical applications, we would like to discuss and implement a set of standards to make CIAO completely open and freely available to enable FAIR applications","Participants: programmers, ontologists
+ Skills: RDF/Turttle, python, docker",I don't have any one on mind,4,"Apr 17, 03:03",
+42,Nicola Mulder,FAIRifying REDCap Clinical Research Data Collection,,FAIRifying REDCap Clinical Research Data Collection,"Katherine Johnston
+ Mamana Mbiyavanga <Mamana>
+ 
+ Computational Biology Division, University of Cape Town, South Africa",ELIXIR Data Platform,"General outcomes:
+ -Potentially a paper called “Ten lesson learnt making clinical research databases FAIR”?
+ -REDCap “FAIRify” external module (built in PHP and Javscript) publicly available on GitHub for installation (this will be reviewed by REDCap and if it passes validation, will be added to the REDCap public repository of external modules)
+ -Project Configuration External Module to collect project meta data which will be incorporated in the “FAIRify” META-META data
+ 
+ Specific output of the hackathon are:
+ 
+ 1) An external module in REDCap that allows clinical research database to include all the necessary machine code for machine readable metadata of the REDCap metadata (contained in the Data Dictionary). Perhaps a plugin that makes use of REDCap’s Data Dictionary import facility to import metadata to add to the data dictionary
+ META-META data should include:
+ -Unique, persistent project identifier and variable ID
+ -Location of dataset 
+ -Type of dataset
+ -Data Use Ontology Code (DUO Code)
+ -Participant consent codes (this should be derived from participant data consent component see Item 4.)
+ 
+ 2) Data definition code (derived from pre-defined ontology dictionaries used by that project). Type of data source (with specific reference including name and location if possible – data provenance, type of data source would determine the requirements here e.g. direct patient report needs no further information but imported data may need raw data file details, machine details, data processing date etc.)
+ 
+ 3) Version Control of the META-META configurations
+ 
+ 4) To provide a human readable configuration and output of (1) in the REDCap database, with interactive configuration on the online designer (linking to appropriate web-based ontology definitions of use)
+ 
+ 5) Possibly extend the capabilities of the ontology lookup fields in REDCap by storing additional ontology information of data values on input (this may not be necessary)
+ 
+ 6) To include a patient consent component into REDCap project. This means provide ontology consent coding to attach to project specific consent requirements, including a participant interactive dashboard – this would be time dependent and possibly not achievable during hacakthon. 
+ 
+ 7) To include a project configuration component for clinical research project definition and meta data specifications (to be appended in Item 1 module)",REDCap experienced PHP software developers with clinical data management experience or exposure to Ontologies database implementation and FAIR data requirements.,We will seek potential collaborators from the data platform and human/rare disease communities in ELIXIR,4,"May 02, 13:04",

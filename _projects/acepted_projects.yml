@@ -1,0 +1,998 @@
+---
+modified_date: 2019-07-12
+project_list:
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/1
+  merged_from:
+  - authors: Frederik Coppens
+    expected_audience: "researchers developing workflows\n expected interaction with\
+      \ experts in conda, containers, Galaxy (tools), nextflow, registries,"
+    expected_outcomes: "- increased awareness of the interoperability stack for tools\
+      \ and workflows ELIXIR is developing and will be supporting in EOSC\n - more\
+      \ workflows available in this ecosystem\n - more communities / scientific domains\
+      \ integrated in this ecosystem\n - feedback on further development of the ecosystem"
+    hacking_topic: Interoperable Workflows for Communities
+    leads: "Frederik Coppens\n Bj\xF6rn Gr\xFCning"
+    nominated_participant: "Paolo Di Tommaso Nextflow Lead\n Marius van den Beek Galaxy\
+      \ Tools & Workflows"
+    number: '1'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: "ELIXIR Tools Platform\n ELIXIR Interoperability Platform\n\
+      \ ELIXIR Galaxy Community\n EOSC-Life\n GA4GH\n All ELIXIR Communities"
+    title: Interoperable Workflows for Communities
+  number: '1'
+  submitter: Frederik Coppens
+  title: Interoperable Workflows for Communities
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/2
+  merged_from:
+  - authors: Jon Ison
+    expected_audience: programmers, ontologists, technical project managers
+    expected_outcomes: "1. Definition of EDAM conceptual relationships and plans on\
+      \ how to leverage these within bio.tools to improve content quality and optimise\
+      \ the registration process.\n 2. Putting pubfetcher into the bio.tools curation\
+      \ process.\n 3. Optimising EDAMMap and EDAM Browser in light of user testing.\n\
+      \ 4. Technical planning for the GitHub-based content management architecture."
+    hacking_topic: bio.tools & EDAM drop-in hackathon & discussions
+    leads: "Jon Ison\n Hans Ienasescu"
+    nominated_participant: "Hans Ienasescu, (bio.tools expert)\n Veit Schw\xE4mmle,\
+      \ (bio.tools & EDAM expert)"
+    number: '3'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: Aligns with ELIXIR Tools Platform and other end-users
+      of bio.tools and EDAM ontology.
+    title: bio.tools & EDAM drop-in hackathon & discussions
+  number: '2'
+  submitter: Jon Ison
+  title: bio.tools & EDAM drop-in hackathon & discussions
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/3
+  merged_from:
+  - authors: Herve Menager
+    expected_audience: Software developers with either Python or Web Frontend development
+      skills (especially JavaScript), with or without an initial experience of development
+      in Galaxy and/or CWL.
+    expected_outcomes: "1) Improved support for importing CWL tool and workflow descriptions\
+      \ into Galaxy.\n 2) This support is merged into the main Galaxy codebase and\
+      \ is part of a future release of Galaxy"
+    hacking_topic: Native loading of Common Workflow Language tool and workflow descriptions
+      in Galaxy
+    leads: "Herv\xE9 M\xE9nager, John Chilto, Michael Cruso,"
+    nominated_participant: "Nicola Soranzo, Galaxy core developer\n Michael R. Crusoe,,\
+      \ CWL expert\n Herv\xE9 M\xE9nager,, CWL leadership team"
+    number: '4'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: "ELIXIR Interoperability Platform\n ELIXIR Tools Platform\n\
+      \ ELIXIR Compute Platform\n ELIXIR Galaxy Community\n ELIXIR Marine Metagenomics\
+      \ Community"
+    title: Improve the support of Common Workflow Language in Galaxy
+  number: '3'
+  submitter: Herve Menager
+  title: Improve the support of Common Workflow Language standards in Galaxy
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/4
+  merged_from:
+  - authors: Manuel Bernal Llinares
+    expected_audience: 'This project is expected to attract the attention of the bioinformatics
+      community who are interested in working with any of the following technologies:
+      Javascript, HTML5, CSS3, Java, Python, Django, Shell Script, Kubernetes and
+      Google Cloud.'
+    expected_outcomes: The outcome of this project will be a fast lightweight javascript
+      widget for searching and visualising metadata related to a given Compact Identifier,
+      which can easily be integrated within Identfiers.org or third party web applications.
+    hacking_topic: Development of tools for supporting Bioschemas Metadata
+    leads: Manuel Bernal Llinares
+    nominated_participant: "Sarala Wimalaratne;; identifiers.org / Bioschemas expert\n\
+      \ Javier Ferrer G\xF3mez;; Javascript, Angular, Java, Python\n Nick Juty;; identifiers\
+      \ expert"
+    number: '5'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: ELIXIR Interoperability Platform
+    title: Support tools for rapid adoption of Bioschemas (and Schema.org) metadata
+      through Identifiers.org
+  - authors: Daniela Butano
+    expected_audience: Data resource providers to help define the metadata that should
+      describe the data provided and to prototype endpoints for their resources. Programmers
+      to prototype the crawler.
+    expected_outcomes: "1.Facilitated registration of data resources in Identifiers.org\n\
+      \ 2.Identifiers.org automatically updated with any changes to resources"
+    hacking_topic: Automating Identifiers.org registration and updates
+    leads: "Daniela Butano - InterMine, UK Node\n Sergio Contrino - InterMine, UK\
+      \ Node"
+    nominated_participant: "For UniProt (has agreed): Jerven Bolleman - UniProt expert,\
+      \ Swiss Node\n For Identifiers.org (has agreed): Sarala Wimalaratne OR Nick\
+      \ Juty - Identifiers.org expert, ELIXIR Hub"
+    number: '10'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: This project aligns with the ELIXIR Interoperability
+      Platform, and involves Identifiers.org (ELIXIR Infrastructure and Recommended
+      Interoperability Resource), UniProt (ELIXIR Core Resource), InterMine (ELIXIR
+      Recommended Interoperability Resource) and Bioschemas (ELIXIR Core Project).
+    title: Automating Identifiers.org registration and updates to increase FAIR-ness
+      within ELIXIR and beyond
+  number: '4'
+  submitter: Manuel Bernal Llinares
+  title: 'Support tools for rapid adoption of Bioschemas through Identifiers.org:
+    automatic resources registration, updates and metadata integration'
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/5
+  merged_from:
+  - authors: Marek Ostaszewski
+    expected_audience: "- Bioinformaticians with expertise in handling clinical data\
+      \ to define and consult use-cases for the RD mechanisms search\n - Bioinformaticians\
+      \ skilled in information retrieval, knowledge exchange and systems biology formats\
+      \ (SBML, SBGN, BioPAX) to design and implement the intra-tool pipelines\n -\
+      \ Bioinformaticians skilled in omics data retrieval and integration, to design\
+      \ and implement the data-level pipelines, including RD-connect\n - Web developers\
+      \ proficient with JavaScript to implement the search and visualization interface\
+      \ based on existing MINERVA plugin architecture\n \n Importantly, the organizers\
+      \ ensure participation of 1 web developer, and the following bioinformaticians:\
+      \ 2 for clinical data handling, 1 for knowledge retrieval and exchange and 2\
+      \ for omics data handling. This way we secure the critical mass necessary for\
+      \ the biohackathon."
+    expected_outcomes: "We expect to deliver a working prototype of a search and visualization\
+      \ interface that, given the search criteria and, if available, omics data, will\
+      \ scan the considered resources, combine the results into a molecular diagram,\
+      \ which then will become available for visualization in MINERVA and Hipathia\
+      \ platforms, linking the results to the sources in DisGeNET and other repositories.\
+      \ \n \n A suggested workflow will look as follows:\n 1. For a rare disease from\
+      \ Orphanet, retrieve the genes/variants from DisGeNET\n 2. Interrogate disease\
+      \ maps via MINERVA to retrieve pathways in which these genes/variants are involved\n\
+      \ 3. Identify omics data for the RD from omics data repository (e.g. transcriptomics)\n\
+      \ 4. Feed output of 3 and 2 into Hipathia for modelling disease processes\n\
+      \ 5. Use MINERVA for visualization of identified disease maps, and/or for integration\
+      \ of retrieved data\n \n If successful, we plan to continue this collaboration\
+      \ and aim for at least one bioinformatics paper. We will actively explore the\
+      \ possibility of establishing this search and visualization engine as part of\
+      \ ELIXIR services."
+    hacking_topic: Development of cross-resource workflows helping to explore and
+      explain mechanisms of Rare Diseases
+    leads: "Laura I. Furlong\n Research Programme on Biomedical Informatics (GRIB)\n\
+      \ Hospital del Mar Medical Research Institute (IMIM)\n DCEXS, Pompeu Fabra University\
+      \ (UPF)\n Carrer del Dr. Aiguader, 88, 08003 Barcelona, Spain\n email:\n \n\
+      \ Joaquin Dopazo\n Clinical Bioinformatics Area, Director\n Fundacion Progreso\
+      \ y Salud\n CDCA, Hospital Virgen del Roc\xEDo\n c/Manuel Siurot s/n, \n 41013,\
+      \ Sevilla, Spain\n email:\n \n Marek Ostaszewski\n Research Fellow\n Universit\xE9\
+      \ du Luxembourg\n Luxembourg Centre for Systems Biomedicine (LCSB)\n 6, avenue\
+      \ du Swing\n L-4367 Belvaux, Luxembourg\n email:"
+    nominated_participant: "1. Steve Laurie, CNAG, expert in the RD research and member\
+      \ of the RD-connect resource, omics data integration\n 2. Joaquin Dopazo, expertise\
+      \ in pathway modeling in translational medicine\n 3. Piotr Gawron, expertise\
+      \ in knowledge visualization and translational medicine data formats"
+    number: '6'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: 'This biohackathon aligns with the following ELIXIR platforms:
+      data, tools and interoperability. ELIXIR communities which may find it relevant
+      are Human Data and Rare Diseases.'
+    title: Disease and pathway maps for Rare Diseases
+  number: '5'
+  submitter: Marek Ostaszewski
+  title: Disease and pathway maps for Rare Diseases
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/6
+  merged_from:
+  - authors: David Salgado
+    expected_audience: Anyone interested in CNV, Beacon, Interoperability, controlled
+      vocabulary...
+    expected_outcomes: "1. Functional Beacon sharing CNV data\n 2, Registering this\
+      \ Beacon to the ELIXIR Beacon Network\n 3 Controlled vocabulary / Common data\
+      \ elements used to describe a CNV\n 4.. Specifications\n 5.. Draft implementation"
+    hacking_topic: Facilitate interpretation of CNV through Beacons
+    leads: "Michael Baudis\n David Salgado\n Gary Saunders"
+    nominated_participant: "Michael Baudis\n David Salgado\n Gary Saunders"
+    number: '7'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: This project is principally aligned with the ELIXIR h-CNV
+      Community and the ELIXIR Beacon GA4GH Driver Project. Is it also aligned more
+      generally with the ELIXIR Human Data Communities.
+    title: Copy Number Variation Beacon
+  number: '6'
+  submitter: David Salgado
+  title: Copy Number Variation Beacon
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/7
+  merged_from:
+  - authors: Yo Yehudi
+    expected_audience: "Galaxy and InterMine users to gather additional requirements.\n\
+      \ Galaxy developers to help create the Galaxy data export tool\n Java or Clojure\
+      \ developers to help work on the InterMine side of importing the data"
+    expected_outcomes: "In the short term, we expect to produce a working prototype\
+      \ of the direct data upload from Galaxy to InterMine at this hackathon. This\
+      \ effort is meant to be the first step towards the tighter interoperation between\
+      \ InterMine and Galaxy. \n \n In the future, we plan to allow arbitrary datasets\
+      \ to move freely between both, and for Galaxy users to be able to create their\
+      \ own InterMine instances in the cloud: these will be loaded with their data\
+      \ from Galaxy and complementary external data. This would allow Galaxy users\
+      \ to benefit from InterMine\u2019s data integration and enrichment process,\
+      \ as well as providing analysis and visualisation tools, with a wealth of interoperable\
+      \ web-services for programmatic access to their data."
+    hacking_topic: 'Towards seamless Galaxy and InterMine integration: Enhanced region
+      analysis'
+    leads: Yo Yehudi -
+    nominated_participant: "Daniela Butano / University of Cambridge /\n Anthony Bretaudeau\
+      \ / Galaxy"
+    number: '9'
+    number_of_expected_hacking_days: '2'
+    research_area_alignment: Interoperability for Bioinformatics tools
+    title: 'Towards seamless Galaxy and InterMine integration: Enhanced region analysis'
+  number: '7'
+  submitter: Yo Yehudi
+  title: 'Towards seamless Galaxy and InterMine integration: Enhanced region analysis'
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/8
+  merged_from:
+  - authors: Helena Rasche
+    expected_audience: "Type of participants: programmers, web developers, trainers\n\
+      \ Knowledge: Galaxy training materials, markdown, github\n Skills: JavaScript,\
+      \ React.js, python"
+    expected_outcomes: "Evaluation of contribution barriers for the Galaxy Training\
+      \ Materials\n Evaluation of current strategies of different training communities\
+      \ to support their contributors\n Web service to generate tutorial skeleton\
+      \ from a link to a Galaxy workflow\n Exploration of possibility for the customization\
+      \ of Monod to support Galaxy Training Material templates and generate live website\
+      \ previews"
+    hacking_topic: User-friendly contribution of Galaxy Training Materials
+    leads: "Helena Rasche\n Saskia Hiltemann\n B\xE9r\xE9nice Batut"
+    nominated_participant: "Helena Rasche - Systems administrator for usegalaxy.eu\
+      \ + their Training Infrastructure as a Service, and expert on Galaxy training\
+      \ materials infrastructure \n Saskia Hiltemann - Co-developer of the Galaxy\
+      \ training materials infrastructure and frequent contributor of training materials\n\
+      \ B\xE9r\xE9nice Batut - Co-developer of the Galaxy training materials infrastructure\
+      \ and familiarity with Monod"
+    number: '13'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: Training Platform, Galaxy communities, tool, interoperability
+    title: Development of a suite of web tools to facilitate contribution to the training
+      materials for Galaxy
+  - authors: Saskia Hiltemann
+    expected_audience: "Type of participants: Bioinformaticians, Instructors, Trainers\
+      \ in Life Sciences\n Knowledge: Single Cell transcriptomics, ChIP-Seq, Variant\
+      \ Analysis and/or Machine Learning\n Skills: Markdown, GitHub, Galaxy, Training"
+    expected_outcomes: 'Direct outcomes of this project include: (a) at least two
+      additional end-to-end Gallantry lessons that will have been evaluated by the
+      involved communities (Galaxy, The Carpentries), (b) interaction and direct involvement
+      of additional relevant communities in the project (such as ELIXIR, GOBLET and
+      H3ABioNet), and (c) evaluation and potential pilot case of scaled up hybrid
+      training within the newly involved networks.'
+    hacking_topic: 'Gallantries: Scalable delivery of FAIR training in Life Sciences'
+    leads: "Saskia Hiltemann\n B\xE9r\xE9nice Batut\n Helena Rasche\n Mateusz Kuza\n\
+      \ Fotis Psomopoulos"
+    nominated_participant: "1) Fotis Psomopoulos - Lesson developer for the Carpentries\
+      \ and Gallantries project member\n 2) Mateusz Kuza - Instructor trainer for\
+      \ the Carpentries and Gallantries project member\n 3) Saskia Hiltemann - Galaxy\
+      \ training materials expert and Gallantries project member"
+    number: '14'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: Training Platform, Galaxy, Bioinformatics Training, Train
+      the Researcher
+    title: Scalable delivery of FAIR training in Life Sciences using Galaxy and the
+      Carpentries training material
+  - authors: Saskia Hiltemann
+    expected_audience: "Type of participants: training developers, trainers and members\
+      \ of the different ELIXIR communities\n Knowledge: training needs\n Skills:\
+      \ none (optional: GitHub, markdown)"
+    expected_outcomes: "1) Discussion with the different ELIXIR communities regarding\
+      \ training needs\n 2) Mentoring of interested communities\n  - Teaching use\
+      \ of Galaxy Training Materials infrastructure\n  - Planning the development\
+      \ of new materials\n  - Identifying useful resources for their community\n \
+      \ - Assistance getting started developing new training materials\n  - Teaching\
+      \ training best practices\n 3) Contributions from underrepresented communities\
+      \ to the GTN\n 4) Better training material for ELIXIR Galaxy communities"
+    hacking_topic: Expansion of training materials for under-represented Galaxy communities
+    leads: "B\xE9r\xE9nice Batut\n Helena Rasche \n Bj\xF6rn Gr\xFCning \n Saskia\
+      \ Hiltemann"
+    nominated_participant: "1) B\xE9r\xE9nice Batut - Community manager of Galaxy\
+      \ Training Network and co-developer of the training materials infrastructure.\n\
+      \ 2) Anne Fiebig - Plant scientist developing plant genomics community in Germany.\n\
+      \ 3) Helena Rasche - Developer of UseGalaxy.eu\u2019s training infrastructure-as-a-service\
+      \ (TIaaS) and frequent contributor of training materials."
+    number: '25'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: Training Platform, Galaxy, Bioinformatics Training, Train
+      the Trainer, Metabolomics, Marine Metagenomics, Rare disease
+    title: Galaxy Training Material content expansion
+  number: '8'
+  submitter: Saskia Hiltemann
+  title: Scalable delivery of FAIR training in Life Sciences using Galaxy and the
+    Carpentries training material
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/9
+  merged_from:
+  - authors: Stuart Owen
+    expected_audience: Software developers, data analysts
+    expected_outcomes: A Data Management toolkit that assembles various existing ELIXIR
+      tools and services and ensures that these services are well connected across
+      ELIXIR Nodes.
+    hacking_topic: Data Management toolkit
+    leads: "Stuart Owen\n Frederik Coppens"
+    nominated_participant: "Inge Jonassen (Data Management)\n Niall Beard (Bioschema's,\
+      \ Development)\n Cyril Pommier (Usecases, COPO, Development)"
+    number: '15'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: "Data Platform\n Compute Platform - EOSC-Life\n Interoperability\
+      \ Platform - FAIRplus, Infradev-3\n ELIXIR-CONVERGE"
+    title: Data Management toolkit
+  number: '9'
+  submitter: Stuart Owen
+  title: Data Management toolkit
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/10
+  merged_from:
+  - authors: Nacer Mohellibi
+    expected_audience: "Audience:\n - Plant Genotyping Data Managers\n - API developpers\
+      \ with experience of JSON schema and data validation\n - Ontologists\n - Breeders\n\
+      \ Required skills:\n - Experience in manipulating genotyping datasets\n - Semantics\
+      \ and especially ontologies concepts\n - API developpment\n - Data management"
+    expected_outcomes: "- Produce a 1st version of the Plant Genotyping standard specification\
+      \ (including Polymorphism Discovery).\n - Through FONDUE 1st deliverable: build\
+      \ genomic data sets using the standard we started to define during the hackathon."
+    hacking_topic: FAIR metadata standard for genotyping data exchange and interoperability
+      with phenotyping data.
+    leads: Nacer Mohellibi, Uwe Scholz
+    nominated_participant: "1.Iain Milne (JHI,, API developper & Data Manager, Experience\
+      \ in manipulating genotyping datasets, Semantics, ontologies concepts, JSON\
+      \ schema, data validation)\n 2.Guilhem Sempere (Southgreen,, Information System\
+      \ and API developper / JSON Schema)\n 3.Bilal El Houdaigui (URGI,, API developer,\
+      \ JSON Schema)"
+    number: '16'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: "- Plant Sciences\n - Interoperability\n - ELIXIR Deposition\
+      \ Databases : EVA \n - Address the lack of existing standard or API to exchange\
+      \ plant genotyping data in a FAIR compliant way\n - Development of community\
+      \ standards supporting metadata validation (Elixir Validation IS)\n - FONDUE\
+      \ Plant Sciences Community-led Implementation Study of ELIXIR (lead by U. Scholz)\n\
+      \ - Continuation of the BRAPI and MIAPPE alignment that successfully emerged\
+      \ from the 2018 biohackathon (Plant Validation track) and will provide the first\
+      \ step of an improvement of the FAIRness of genotyping data."
+    title: Plant Genotyping Metadata Standard Specification Hackathon
+  number: '10'
+  submitter: Nacer Mohellibi
+  title: Plant Genotyping Metadata Standard Specification Hackathon
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/11
+  merged_from:
+  - authors: Venkata Pardhasaradhi Satagopam
+    expected_audience: "Bioinformaticians and developers working in the areas of text-mining,\
+      \ network biology and semantic web technologies.\n \n By all means, organisers\
+      \ commit to the proposal with the participation and contribution of developers,\
+      \ bioinformaticians for the event to ensure the presence of enough human resources\
+      \ and provide momentum during the biohackathon. 3 people from the University\
+      \ of Luxembourg and 2 from EMBL-EBI will participate in this Biohackathon topic."
+    expected_outcomes: We look forward to the development of a common integration
+      between cross-resource literature knowledgebase projects, delivering advancements
+      on interoperability and accessibility of text-mining resources by developing
+      an interface by extending existing APIs and application of standards, for example,
+      W3C Web Annotation Data Model. This common interface will be tangentially beneficial
+      for the different use cases that, for example, creation of interaction networks
+      and disease maps and annotate corresponding entities, relationships and events
+      through such knowledge databases. We are planned to submit a manuscript on Biohackathon
+      outcome. Between the potential achievements, we could find an extended and lasting
+      collaboration between institutions as well as scientific literature contributions,
+      exploring the deployment of joint multi-institutional services.
+    hacking_topic: Text-mining and semantic web technologies for construction of gene/protein
+      networks and disease maps
+    leads: Venkata Satagopam  >, Johanna McEntyre, Aravind Venkatesan, Carlos Vega
+      Moreno
+    nominated_participant: "Dr. Lars Juhl Jensen, University of Copenhagen,\n Dr.\
+      \ Martin Krallinger, CNIO,"
+    number: '17'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: "ELIXIR platforms: Data/Interoperability \n ELIXIR Communities:\
+      \ Rare Disease/Proteomics/Metabolomics"
+    title: Text-mining and semantic web technologies
+  number: '11'
+  submitter: Venkata Satagopam
+  title: Text-mining and semantic web technologies
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/12
+  merged_from:
+  - authors: "Leyla Jael Garc\xEDa Castro"
+    expected_audience: '* People with knowledge on Bioschemas, knowledge graphs, semantic
+      technologies, and machine learning'
+    expected_outcomes: "* Knowledge graph from the existing markup and crawler\n *\
+      \ Selection of an evaluation case\n * Findings regarding the selected evaluation\
+      \ case\n * Beyond the hackathon, the work done here can be used as a proof-of-concept\
+      \ and model for a Bioschemas knowledge graph\n Note: If not crawler available\
+      \ or not usable markup, we will work on a similar project but with different\
+      \ data."
+    hacking_topic: Knowledge graph for scholarly publications in Bioschemas
+    leads: "Leyla Garcia\n Juliane Fluck\n Dietrich Rebholz-Schuhmann"
+    nominated_participant: "* Bernd M\xFCller Java, indexes, semantic web\n * Benjamin\
+      \ Wolff Java, indexes, semantic web\n * T.B.D"
+    number: '18'
+    number_of_expected_hacking_days: '3'
+    research_area_alignment: Interoperability, Bioschemas
+    title: Knowledge graph for scholarly publications in Bioschemas
+  number: '12'
+  submitter: "Leyla Jael Garc\xEDa Castro"
+  title: Knowledge graph for scholarly publications in Bioschemas
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/13
+  merged_from:
+  - authors: Victoria Dominguez Del Angel
+    expected_audience: Bioinformaticians, computer scientists, docker experts, cloud
+      brokers
+    expected_outcomes: "- Deployment a local EGA instance in the Cloud Federation\
+      \ Biosphere with publically available Human data\n - Creation of the Image\n\
+      \ - Improve best practice documentation on \u201Chow to\u201D deployment a Local\
+      \ EGA in a Cloud : https://localega.readthedocs.io/en/latest/code.html\n - \u201C\
+      How to use\u201D Loca EGA from user\u2019s prespective\n - Define and propose\
+      \ solutions on Human data sharing issues taking into account the French Legislation"
+    hacking_topic: Install a local EGA instances in the Cloud Federation Biosphere
+    leads: Jordi Rambla, Victoria Dominguez del Angel, Christophe Blanchet, David
+      Salgado, Olivier Collin
+    nominated_participant: "Christophe Blanchet,, Cloud expert\n Jordi Rambla,, EGA\
+      \ expert\n Victoria Dominguez del Angel,, help on cloud brokering and documentation"
+    number: '19'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: "This project is mainly aligned with the Human Data communities.\
+      \ \n h-CNV community\n Platforms :Data, Compute and Tools\n ELIXIR::GA4GH projects\
+      \ alignment"
+    title: How to setup a local-EGA for Human Data with regulatory constraints?
+  number: '13'
+  submitter: Victoria Dominguez Del Angel
+  title: How to setup a local-EGA for Human Data with regulatory constraints?
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/14
+  merged_from:
+  - authors: Argyrios Alexandros Gardelakos
+    expected_audience: Bioinformaticians and programmers, but everyone with technical
+      background is more than welcome
+    expected_outcomes: A working prototype to visualize and monitor the execution
+      of workflows
+    hacking_topic: Development of a visualization library for real-time monitoring
+      of computational workflows
+    leads: "Argyrios Alexandros Gardelakos, \n Georgios Kostoulas"
+    nominated_participant: "1) Georgios Ntalaperas, Programmer, Data transformation\
+      \ expert\n 2) Foivos Gypas, Programmer, Bioinformatics expert (Swiss Institute\
+      \ of Bioinformatics)"
+    number: '20'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: In alignment with ELIXIR tools and compute platforms
+    title: Development of a visualization library for real-time monitoring of computational
+      workflows
+  number: '14'
+  submitter: Argyrios Alexandros Gardelakos
+  title: Development of a visualization library for real-time monitoring of computational
+    workflows
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/15
+  merged_from:
+  - authors: Marc Hanauer
+    expected_audience: "FAIR expert\n PHP dev. (Orphanet's website)\n data model (RDF/Ontology)"
+    expected_outcomes: "Improve interoperability of our core data resources\n FAIRdatapoint\
+      \ avalaible"
+    hacking_topic: Implementation of Bioschemas or Orphanet and Orphadata
+    leads: "Marc Hanauer\n David Lagorce"
+    nominated_participant: "Rajaram Kaliyaperumal (FAIR expert)\n Celine Rousselot\
+      \ (Orphanet PHP dev lead)\n David Lagorce (Orphanet/Orphadata project manager\
+      \ & Dev)\n Marc Hanauer (Orphanet CTO)\n \n (Please note: no travel fundings\
+      \ for Rousselot, Lagorce and Hanauer, only accommodation)"
+    number: '23'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: "Elxir Core Data Resources\n Rare disease Elixir Communities\n\
+      \ Federated Data"
+    title: Implementation of Bioschema for Orphanet and Orphadata
+  number: '15'
+  submitter: Marc Hanauer
+  title: Implementation of Bioschema for Orphanet and Orphadata
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/16
+  merged_from:
+  - authors: Susheel Varma
+    expected_audience: "Audience:\n - Web developers\n - DevOps\n \n Useful skills:\n\
+      \ - Web development (preferably Python, Go and/or Angular)\n - REST microservices\n\
+      \ - Kubernetes\n - CI/CD\n - OpenID Connect / OAuth2 / AAI"
+    expected_outcomes: Development and Kubernetes-based deployment of a user-facing
+      web client PoC, leveraging GA4GH Cloud API services to allow end-users to pick
+      workflows, modify parameters, select input data, trigger workflow execution,
+      query run status and access results. User identity manifestation via ELIXIR
+      AAI/OIDC and controlled access to services via OAuth2. Official release to ELIXIR
+      community and multi-site production-grade deployment of the user client and
+      ELIXIR GA4GH cloud services planned for 2020.
+    hacking_topic: Operationalising the GA4GH Cloud and AAI Driver Project
+    leads: "Alexander Kanitz\n Ania Niewielska\n Yacine Khettab\n Marius Dieckmann"
+    nominated_participant: "Alexander Kanitz / project lead & web development\n Ania\
+      \ Niewielska / software developer\n Marius Dieckmann / software developer &\
+      \ Kubernetes expert\n Yacine Khettab/ DevOps & container specialist"
+    number: '24'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: "ELIXIR Compute/Tools/Data/Interop\n GA4GH Cloud Work\
+      \ Stream\n ELIXIR Human Data (Rare Disease, Federated Data, CNV)\n ELIXIR Marine\
+      \ Metagenomics\n ELIXIR Proteomics"
+    title: Operationalising the ELIXIR-GA4GH Cloud and AAI Driver Project
+  number: '16'
+  submitter: Susheel Varma
+  title: Operationalising the ELIXIR-GA4GH Cloud and AAI Driver Project
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/17
+  merged_from:
+  - authors: Gianmauro Cuccuru
+    expected_audience: "Type of participants: Developers, DevOps, System Administrators\n\
+      \ Knowledge: basic Galaxy admin knowledge, Job scheduling\n Skills: Ansible,\
+      \ Bash, Python"
+    expected_outcomes: "Having a network of trusted pulsar servers across Europe to\
+      \ leverage computational power more efficiently in ELIXIR\n Distributing jobs\
+      \ based on tool metrics and ELIXIR AAI attributes through Europe"
+    hacking_topic: Development of a suite of tools to validate and enable a remote
+      task execution service
+    leads: "Gianmauro Cuccuru\n Marco Antonio Tangaro"
+    nominated_participant: "Gianmauro Cuccuru (DE) - Ansible, Bash, Cloud computing,\
+      \ Docker, Galaxy, Python\n Miroslav Ruda (CZ) - Bash, Distributed job scheduling,\
+      \ Grid computing\n Marco Antonio Tangaro (IT) - Ansible, Bash, Cloud computing,\
+      \ Docker, Galaxy, Python"
+    number: '26'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: Federated Compute, Galaxy, Bioinformatics
+    title: Development of a Pulsar toolkit
+  number: '17'
+  submitter: Gianmauro Cuccuru
+  title: Development of a Pulsar toolkit
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/18
+  merged_from:
+  - authors: Tazro Ohta
+    expected_audience: "Developers who are familiar with workflow languages such as\
+      \ CWL\n Data producers who are interested in sharing personal genome data"
+    expected_outcomes: This proposal is based on the idea of sharing workflows, so
+      the outcomes may vary with the people we can work with. If we could have audiences
+      who already have workflows that analyze the personal genomic data, we will describe
+      them in CWL, and then test on our system running on DDBJ's HPC platform. We
+      can help to package tools in containers for that as well, but it will be more
+      productive if there were the BioConda/BioContainers team and/or the Elixir tool
+      registry team. We already have CWL workflows that run on our system, so we can
+      share our workflows and test if they are truly portable when there is a workflow
+      execution platform team such as Galaxy. Our system can run workflows for non-human
+      data as well, so we can import and test the workflows already described in CWL
+      such as the MGnify workflow developed by the EBI Metagenome team or pgap pipeline
+      developed by NCBI. We would be happy to present our system in details and help
+      to deploy if there were people interested in having a similar system on their
+      computing platform.
+    hacking_topic: Implementation and sharing of workflows for personal genomic data
+    leads: Tazro Ohta
+    nominated_participant: "Hirotaka Suetake, main developer of the SAPPORO system\n\
+      \ Manabu Ishii, CWL project commiter \n Tazro Ohta, SAPPORO project lead"
+    number: '30'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: tools, compute, data, personal data sharing e.g. EGA/JGA
+    title: Implementation and sharing of workflows for personal genomic data on DDBJ's
+      workflow execution system SAPPORO
+  number: '18'
+  submitter: Tazro Ohta
+  title: Implementation and sharing of workflows for personal genomic data on DDBJ's
+    workflow execution system SAPPORO
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/19
+  merged_from:
+  - authors: "Tomas Klingstr\xF6m"
+    expected_audience: "Galaxy administrators, developers and high level users.\n\
+      \ Researchers knowledgeable in JavaScript (more specifically Vue.js and/or Angular.js)."
+    expected_outcomes: "The overall objective is to provide a simplified interface\
+      \ for running best practice workflows hosted on Galaxy servers. Specifically\
+      \ the hackaton will:\n *Migrate Galaksio to a more sustainable codebase.\n *Bring\
+      \ together key skills necessary to finalize some specific issues in the code.\n\
+      \ *Contribute to creation of a \"component library\" in Vue as components can\
+      \ be shared between Galaxy, Galaksio and other bioinformatics software using\
+      \ Vue.js (or where Vue.js can be easily added)."
+    hacking_topic: Updating and migrating a simplified workflow management interface
+      for Galaxy
+    leads: Tomas Klingstrom
+    nominated_participant: "1. Rafael Hern\xE1ndez de Diego, Is the original programmer\
+      \ behind Galaksio and a very skilled programmer in both front-end and back-end\
+      \ development. His current work is demanding but the BioHackaton can hopefully\
+      \ be seen as a bit of a prestige collaboration for his current employer and\
+      \ thus make him available to us for this.\n \n 2. Marius van den Beek, One of\
+      \ the key developers in Europe for Galaxy with many major contributions to both\
+      \ Galaxy and Galaksio. (Note: Works in Paris)\n \n 3. Nicola Soranzo, of the\
+      \ key developers in Europe for Galaxy and has developed Bioblend which is used\
+      \ to connect tools such as Galaksio with Galaxy."
+    number: '32'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: "Galaxy Working Group\n (making bioinformatics more accessible\
+      \ for biologists)"
+    title: Updating the Galaksio workflow management interface for Galaxy and migrating
+      it to Vue.js
+  number: '19'
+  submitter: "Tomas Klingstr\xF6m"
+  title: Updating the Galaksio workflow management interface for Galaxy and migrating
+    it to Vue.js
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/20
+  merged_from:
+  - authors: Norman Davey
+    expected_audience: "Database developers - developers from the core data repositories\
+      \ in the IDP field.\n Experimentalist in IDP structural field - data producers\
+      \ for each of the experimental approaches tackled in the project.\n Standards\
+      \ experts - researchers with a background in the development of dissemination\
+      \ standards.\n FAIR experts - researchers with an understanding of FAIR approaches\
+      \ to data storage and dissemination.\n Programmers - coders with an interest\
+      \ in RESTful APIs, storage/dissemination standards and data FAIRification."
+    expected_outcomes: "The project will have the following outcomes:\n - A set of\
+      \ rules for the structural classification of the raw data stored in each experimental\
+      \ method specific data repositories.\n - RESTful APIs for each resource to distribute\
+      \ structural classification data using a standardised dissemination formats\
+      \ based on the Minimum Information About Disorder Experiments (MIADE) standard.\
+      \ \n - Cross-links between the resources to improve the visibility of the complementary\
+      \ data in each resource.\n - A single RESTful API portal aggregating and distributing\
+      \ the structural classification level IDP data to streamline the integration\
+      \ of IDP data into the ELIXIR core data resources."
+    hacking_topic: Improving the interoperability of the core intrinsically disordered
+      protein (IDP) resource
+    leads: "Norman Davey, Institute for Cancer Research, London, UK\n\n Damiano Piovesan,\
+      \ Dept. of Biomedical Sciences, University of Padua, Italy\n"
+    nominated_participant: "Norman Davey, Institute for Cancer Research, London, UK\n\
+      \n Lead developer of the Minimum Information About Disorder Experiments (MIADE)\
+      \ standard for IDP data dissemination.\n \n Damiano Piovesan, Dept. of Biomedical\
+      \ Sciences, University of Padua, Italy\n\n Lead developer of the DisProt database\
+      \ of IDP data\n \n Cy Jefferies, EMBL Hamburg, Germany\n \n Lead developer of\
+      \ the SASBDB database of SAX data"
+    number: '35'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: "ELIXIR New Community Intrinsically Disordered Proteins\n\
+      \ ELIXIR data platform"
+    title: Improving the interoperability of the core intrinsically disordered protein
+      (IDP) resource
+  number: '20'
+  submitter: Norman Davey
+  title: Improving the interoperability of the core intrinsically disordered protein
+    (IDP) resource
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/21
+  merged_from:
+  - authors: Mayumi Kamada
+    expected_audience: Ontology experts, Human genetics and biomedical database developers,
+      and Bio (medical) informatician with experience in clinical interpretation of
+      genomic medicine.
+    expected_outcomes: Better alignment of ontologies between Med2RDF and SEPIO for
+      describing evidence of clinical significance related to human diseases including
+      rare diseases and structural variations.
+    hacking_topic: Alignment of semantic biomedical data schema between Med2RDF and
+      SEPIO
+    leads: "Mayumi Kamada, \n Toshiaki Katayama"
+    nominated_participant: "Mayumi Kamada \n Soichi Ogishima \n Toyofumi Fujiwara\
+      \ \n Shuichi Kawashima \n Toshiaki Katayama"
+    number: '37'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: "ELIXIR platforms: Interop (Ontology, Data sharing)\n\
+      \ ELIXIR communities: Rare disease, CNVs, Federated Data"
+    title: Development of biomedical schema for data exchange for GA4GH and GEM-Japan
+  number: '21'
+  submitter: Mayumi Kamada
+  title: Development of biomedical schema for data exchange for GA4GH and GEM-Japan
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/22
+  merged_from:
+  - authors: Alasdair Gray
+    expected_audience: "In general programmers interested in adopting standards for\
+      \ validation tools, including, but not limited to:\n JSON schema experts\n Plant\
+      \ metadata related expert (MIAPPE, PPEO\u2026)\n BrAPI/ISA developers\n JSON-LD\
+      \ validation"
+    expected_outcomes: "Understanding of a wider set of validation use cases identifying\
+      \ their commonalities and differences\n Extending validation to networks of\
+      \ resources\n Share best practice about reporting validation errors"
+    hacking_topic: RO Shape Profiles, BrAPI, and Bioschemas Shapes Validation
+    leads: "Simon Jupp\n Alasdair Gray\n Adam Cowdy"
+    nominated_participant: "Cyril Pommier, INRA,\n Philippe Rocca-Serra, UOXF, (ISA\
+      \ schema)"
+    number: '38'
+    number_of_expected_hacking_days: '2'
+    research_area_alignment: "Interop\n Elixir Validation Implementation study\n Plant\
+      \ metadata submission\n SHEX/SHACL JSON-LD Shape validation"
+    title: RO Shape Profiles, BrAPI, and Bioschemas Shapes Validation
+  number: '22'
+  submitter: Alasdair Gray
+  title: RO Shape Profiles, BrAPI, and Bioschemas Shapes Validation
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/23
+  merged_from:
+  - authors: Rob Hooft
+    expected_audience: We expect to work with any ELIXIR-related data stewards and
+      experts who have input on the knowledge model and/or the templates for funders,
+      or who would simply like to learn how to add expertise to the system.
+    expected_outcomes: "* Templates for Science Europe and H2020 used by Data Stewardship\
+      \ Wizard to generate DMPs.\n * New expertise in the Wizard knowledge model\n\
+      \ * New ideas for future integrations based on input from participants\n * Extending\
+      \ Knowledge Model with Software Management relevant topics"
+    hacking_topic: Funders templates for Data Management Plans & Adding Software Management
+      Topics to the Data Stewardship Wizard
+    leads: "Marek Such\xE1nek;\n Rob Hooft;"
+    nominated_participant: It would be useful to have a person from one of the major
+      funders or funding platforms, e.g. Marie Timmermann from Science Europe may
+      be able to recommend one of her colleagues. They may not stay for other hackathon
+      subjects.
+    number: '2'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: The Data Stewardship Wizard is proposed as a way of presenting
+      ELIXIR Data Management Resources (databases, tools, etc) to ELIXIR users in
+      the submitted proposal for ELIXIR-Converge. The work proposed here is complementary
+      to the work that will be performed in that project, but it will be possible
+      to use the BioHackathon time also to refer to more ELIXIR services in the Wizard
+      knowledge model, working on the preliminaries for the goals in ELIXIR-Converge
+      (the recently submitted ELIXIR Data Management proposal).
+    title: 'ELIXIR Data Stewardship Wizard: Templating Data Management Plans and integrating
+      Software Management'
+  number: '23'
+  submitter: Rob Hooft
+  title: 'ELIXIR Data Stewardship Wizard: Templating Data Management Plans and integrating
+    Software Management'
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/24
+  merged_from:
+  - authors: Hidemasa Bono
+    expected_audience: "Bioinformatists interested in analyzing transcriptome data\
+      \ for agricultural important organisms.\n Ontologists for biological samples\
+      \ from those."
+    expected_outcomes: Gene expression matrix (genes vs samples) for silkworm and
+      rice with the data viewer which was originally developed for human and mouse
+      reference expression dataset.
+    hacking_topic: Development of TogoEx
+    leads: "Hidemasa Bono\n Hiromasa Ono"
+    nominated_participant: "Hidemasa Bono \n Takeya Kasukawa Specialist of the system\
+      \ for transcriptome data\n Hideki Hirakawa Specialist in plant genomics and\
+      \ bioinformatics"
+    number: '8'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: Omics researches that can be integrated with transcriptome
+      data.
+    title: 'TogoEx: the integration of gene expression data'
+  number: '24'
+  submitter: Hidemasa Bono
+  title: 'TogoEx: the integration of gene expression data'
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/25
+  merged_from:
+  - authors: Mateusz Kuzak
+    expected_audience: "Participants: Software developers, Research Software Engineers,\
+      \ Researchers\n Knowledge: GitHub, Data Management Plan, Software Development,\
+      \ Software Engineering Practices"
+    expected_outcomes: The direct outcome of this project is going to be a draft checklist
+      of a Software Management Plan (SMP). This will be further reviewed within the
+      ELIXIR Software Best Practices WG, in conjunction with the involved stakeholders
+      (i.e. from the ELIXIR network, relevant Journals as well as potential funding
+      agencies such as EC). Mid-term goal of the project is to have an established
+      SMP in place, that would be a requirement in at least one network. Moreover,
+      the topics of the Management plan will be also included in the existing training
+      material as extensions, so that targeted training can be provided.
+    hacking_topic: Designing a Software Management Plan as ELIXIR guidelines
+    leads: "Mateusz Kuzak\n Fotis Psomopoulos\n Allegra Via"
+    nominated_participant: "Dimitris Bampalikis\n Neil Chue Hong (Software Sustainability\
+      \ Institute) or other expert from ReSA community"
+    number: '11'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: Tools Platform, Training Platform, Software Development
+      Best Practices WG
+    title: Designing a Software Management Plan as ELIXIR guidelines
+  number: '25'
+  submitter: Mateusz Kuzak
+  title: Designing a Software Management Plan as ELIXIR guidelines
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/26
+  merged_from:
+  - authors: Alasdair Gray
+    expected_audience: IDP Community data resource providers, programmers for crawling
+      the markup and transforming it into the the MobiDB database.
+    expected_outcomes: "1) Source datasets marked-up with Bioschemas markup\n 2) Crawler\
+      \ to consume Bioschemas markup from a given set of sources\n 3) Data ingested\
+      \ into the MobiDB and DisProt\n 4) Expose Bioschemas markup on IDP datasets\
+      \ like MobiDB and DisProt \n 5) Paper describing the achievements and the benefits\
+      \ of the work"
+    hacking_topic: Representing and consuming protein feature records with Bioschemas
+    leads: "Ivan Mi\u010Deti\u0107\n Alasdair Gray"
+    nominated_participant: "Ivan Mi\u010Deti\u0107,, MobiDB \n Balint M\xE9sz\xE1\
+      ros,, MFIB, DIBS\n Kenneth McLeod,, Bioschemas Crawler"
+    number: '22'
+    number_of_expected_hacking_days: '3'
+    research_area_alignment: Interop, IDP Community
+    title: Data Ingestion Pipeline for the IDP Community
+  number: '26'
+  submitter: Alasdair Gray
+  title: Data Ingestion Pipeline for the IDP Community
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/27
+  merged_from:
+  - authors: Denise Slenter
+    expected_audience: "ELIXIR Core Resource representations (mapping need and mapping\
+      \ providers)\n Semantic Web and interoperability experts\n Technicians with\
+      \ knowledge of Docker and/or OpenAPI\n Workflow developers (Galaxy, KNIME, CWL)\n\
+      \ Java developers"
+    expected_outcomes: "1. Improve the FAIR metrics of existing BridgeDb ID mapping\
+      \ databases\n 2. Automation of generation of Scientific Lenses for chemical\
+      \ compounds\n 3. Expand integration of BridgeDb for workflow systems (Galaxy\
+      \ and/or KNIME)\n 4. BridgeDb application to create link sets from Bioschemas\
+      \ (MolecularEntity) annotation\n 5. Faster identifier mapping (with Apache Derby\
+      \ replacement)\n 6. ID mapping data exchange using nanopublications, allowing\
+      \ explicit provenance being stored"
+    hacking_topic: Extending BridgeDb identifier mapping functionalities
+    leads: "Denise Slenter,\n Chris Evelo,\n Egon Willighagen,\n Alasdair Gray"
+    nominated_participant: "1. Emma Schymanski - Luxembourg Centre for Systems Biomedicine\
+      \ -, Metabolomics and Toxicology expert, and provider of specific use case +\
+      \ data\n 2. Nick Juty - University of Manchester -, identifiers.org and Compact\
+      \ Identifiers expert\n 3. Tobias Kuhn - Free University of Amsterdam -, nanopublications"
+    number: '27'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: "Interoperability, Data\n Rare Disease, Metabolomics,\
+      \ but relevant for all Communities"
+    title: 'FAIR Identifier Mapping: Building Bridges Between Communities'
+  number: '27'
+  submitter: Denise Slenter
+  title: 'FAIR Identifier Mapping: Building Bridges Between Communities'
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/28
+  merged_from:
+  - authors: Ryota Yamanaka
+    expected_audience: "programmers (JavaScript, SPARQL, graph query languages)\n\
+      \ ontologists, data modelers (RDF, property graph)\n data analysts, algorithm\
+      \ developers (graph algorithms, machine learning)"
+    expected_outcomes: "- G2GML mapping definitions for several existing datasets\
+      \ (KGX, Med2RDF, DesGeNET)\n - Generated property graph datasets for the projects\
+      \ above\n - Sample analysis methods on graph databases and the results\n - Paper\
+      \ to describe the practical use of G2GML"
+    hacking_topic: Application of property graph mapping and graph algorithms to federated
+      RDF datasets
+    leads: "Ryota Yamanaka\n Shota Matsumoto\n Hirokazu Chiba\n Ramona R\xF6\xDF"
+    nominated_participant: "Shota Matsumoto (Japan)\n Ramona R\xF6\xDF (Germany)\n\
+      \ Ryota Yamanaka (Thailand)"
+    number: '28'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: This toolkit utilises the existing federated data shared
+      in RDF. We will initially focus on human genetics data (disease annotation,
+      gene mutation information, etc.) from projects such as KGX (Knowledge Graph
+      Exchange) <https://github.com/NCATS-Tangerine/kgx>, Med2RDF <http://med2rdf.org/>,
+      and DisGeNET <http://www.disgenet.org/>. However, this toolkit can be also applied
+      to the RDF datasets in other research subdomains.
+    title: Mapping RDF Graphs to Property Graphs towards Practical Applications
+  number: '28'
+  submitter: Ryota Yamanaka
+  title: Mapping RDF Graphs to Property Graphs towards Practical Applications
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/29
+  merged_from:
+  - authors: Toshiyuki Yokoyama
+    expected_audience: Researchers, Engineers, Ontology expert, JavaScript, Graph
+      Database, RDF, Europe PMC
+    expected_outcomes: "1. A service that recommends articles to users by collecting\
+      \ articles and grants information from Europe PMC articles API and academic\
+      \ grants API.\n 2. A web interface that shows the list of recommended papers\
+      \ and visualizes relationships between them."
+    hacking_topic: Recommendation system for life sciences publications
+    leads: Mustafa Anil Tuncel, Toshiyuki Yokoyama
+    nominated_participant: "1. Toshiyuki Yokoyama, The University of Tokyo,, JavaScript/React,\
+      \ Ruby/Python/Bash, RDF/SPARQL, HTML/CSS \n 2. Mustafa Anil Tuncel, ETH Zurich,,\
+      \ Backend, Python, Bioinformatics, SPARQL, RDF\n 3. Ivan Topolsky, ETH Zurich\
+      \ and SIB,, Backend, SysOps, DevOps, RaspPi servers, Docker containers, Web\
+      \ servers, Service Integration and Management, Perl/Bash/Python, HTML/CSS."
+    number: '29'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: 'ELIXIR platform: Tools'
+    title: Semantic recommendation system for life sciences publications
+  - authors: Ivan Topolsky
+    expected_audience: Front-end development, Knowledge on RDF, Backend
+    expected_outcomes: "- A semantic subscription system that notifies the researchers\
+      \ whenever a relevant paper or a grant is available.\n \n - A web interface\
+      \ that allows researchers to subscribe in certain topics of life sciences from\
+      \ the ontology."
+    hacking_topic: Developing a subscription system for our Semantic Life Sciences
+      Publications Subscription System
+    leads: "Kim Philipp Jablonski,\n Ivan Topolsky"
+    nominated_participant: "1. Kim Philipp Jablonski, ETH Zurich,, Backend, Python.\n\
+      \ \n 2. Ivan Topolsky, ETH Zurich and SIB,, Backend, SysOps, DevOps, RaspPi\
+      \ servers, Docker containers, Service Integration and Management, Perl/Bash/Python,\
+      \ Mail servers administration.\n \n 3. Mustafa Anil Tuncel, ETH Zurich,, Backend,\
+      \ Python, Bioinformatics, SPARQL, RDF, C-SPARQL, Stream databases"
+    number: '31'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: 'Elixir platform: Tools'
+    title: Developing Semantic Life Sciences Publications Subscription System
+  number: '29'
+  submitter: Toshiyuki Yokoyama/Mustafa Anil Tuncel
+  title: Semantic recommendation system for life sciences publications
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/30
+  merged_from:
+  - authors: Wolfgang Maier
+    expected_audience: "Galaxy tool developers and experienced end-users & Galaxy\
+      \ server admins for curated content development\n Bioinformatics operations\
+      \ ontologists (EDAM, bioschema) for automated content generation\n bio.tools\
+      \ ecosystem developers and experts\n Graph database developers for database\
+      \ layout decisions\n Members of the Galaxy Working Group within the ELIXIR Tools\
+      \ Platform for integration into Galaxy"
+    expected_outcomes: "- a graph-based database of tools the traversal of which defines\
+      \ analysis workflows at various levels of tool interoperability confidence levels\n\
+      \ - a public frontend for Galaxy instances for exploring networks of tools and\
+      \ suggesting possible workflows from analysis start and end points"
+    hacking_topic: Development of a graph-based database of and a suggestion system
+      for interoperable tools in Galaxy
+    leads: "Wolfgang Maier,\n Jon Ison,"
+    nominated_participant: "Anup Kumar,: Member of the Galaxy EU team working on deep\
+      \ learning models for tool suggestions\n Piotr Jaroslaw Chmura, & Ivan Kuzmin,:\
+      \ bio.tools developers"
+    number: '33'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: "ELIXIR Galaxy Community\n ELIXIR Tools platform, Tools\
+      \ and Services Registry, Workflows & Interoperability groups"
+    title: A graph database of Galaxy tool interoperability
+  number: '30'
+  submitter: Wolfgang Maier
+  title: A graph database of Galaxy tool interoperability
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/31
+  merged_from:
+  - authors: Bjoern Gruening
+    expected_audience: "* tool developers that want to add their tools to bioconda/biocontainers\n\
+      \ * tool users that want to learn conda or complain about conda :)"
+    expected_outcomes: "* more bioconda contributors = more sustainable community\n\
+      \ * less bioconda/biocontainer bugs"
+    hacking_topic: Bioconda and Biocontainers helpdesk
+    leads: "Bj\xF6rn Gr\xFCning\n Devon Ryan"
+    nominated_participant: "* Johannes K\xF6ster\n * Elmar Pr\xFCsse\n * Wolfgang\
+      \ Maier"
+    number: '34'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: ELIXIR Tools platform, Tools and Services Registry, Workflows
+      & Interoperability groups
+    title: Bioconda and Biocontainers helpdesk
+  number: '31'
+  submitter: Bjoern Gruening
+  title: Bioconda and Biocontainers helpdesk
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/32
+  merged_from:
+  - authors: Gustavo Salazar
+    expected_audience: "Web Developer (JavaScript)\n Web users of biological data\n\
+      \ Designers"
+    expected_outcomes: "2 new Nightingale components\n Documentation for both developers\
+      \ and users\n Updating the Showcase Application\n Improve/redefine component\
+      \ use of lifecycle"
+    hacking_topic: Develop further Nightingale, the platform and extend some of its
+      components.
+    leads: Gustavo Adolfo Salazar Orejuela, Xavier Watkins
+    nominated_participant: "Aur\xE9lien Luciani JavaScript Developer - One of the\
+      \ original contributors to the project. Main Developer of the DataLoader and\
+      \ its adapters.\n Daniel Rice JavaScript Developer. Contributor to UniProt Nightingale\
+      \ components."
+    number: '40'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: Data Visualization of Biological Data
+    title: Nightingale
+  number: '32'
+  submitter: Gustavo Salazar
+  title: Nightingale - Data visualization web components for the life sciences
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/33
+  merged_from:
+  - authors: Juan Caballero
+    expected_audience: "Participants: programmers, ontologists\n Skills: RDF/Turttle,\
+      \ python, docker"
+    expected_outcomes: At Databiology we have created CIAO, our framework to create
+      and deploy biomedical applications, we would like to discuss and implement a
+      set of standards to make CIAO completely open and freely available to enable
+      FAIR applications
+    hacking_topic: Development and implemetantion of FAIR app standards
+    leads: Juan Caballero
+    nominated_participant: I don't have any one on mind
+    number: '41'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: large data management analysis and interoperability
+    title: FAIR applications
+  number: '33'
+  submitter: Juan Caballero
+  title: FAIR applications
+- link: https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/34
+  merged_from:
+  - authors: Nicola Mulder
+    expected_audience: REDCap experienced PHP software developers with clinical data
+      management experience or exposure to Ontologies database implementation and
+      FAIR data requirements.
+    expected_outcomes: "General outcomes:\n -Potentially a paper called \u201CTen\
+      \ lesson learnt making clinical research databases FAIR\u201D?\n -REDCap \u201C\
+      FAIRify\u201D external module (built in PHP and Javscript) publicly available\
+      \ on GitHub for installation (this will be reviewed by REDCap and if it passes\
+      \ validation, will be added to the REDCap public repository of external modules)\n\
+      \ -Project Configuration External Module to collect project meta data which\
+      \ will be incorporated in the \u201CFAIRify\u201D META-META data\n \n Specific\
+      \ output of the hackathon are:\n \n 1) An external module in REDCap that allows\
+      \ clinical research database to include all the necessary machine code for machine\
+      \ readable metadata of the REDCap metadata (contained in the Data Dictionary).\
+      \ Perhaps a plugin that makes use of REDCap\u2019s Data Dictionary import facility\
+      \ to import metadata to add to the data dictionary\n META-META data should include:\n\
+      \ -Unique, persistent project identifier and variable ID\n -Location of dataset\
+      \ \n -Type of dataset\n -Data Use Ontology Code (DUO Code)\n -Participant consent\
+      \ codes (this should be derived from participant data consent component see\
+      \ Item 4.)\n \n 2) Data definition code (derived from pre-defined ontology dictionaries\
+      \ used by that project). Type of data source (with specific reference including\
+      \ name and location if possible \u2013 data provenance, type of data source\
+      \ would determine the requirements here e.g. direct patient report needs no\
+      \ further information but imported data may need raw data file details, machine\
+      \ details, data processing date etc.)\n \n 3) Version Control of the META-META\
+      \ configurations\n \n 4) To provide a human readable configuration and output\
+      \ of (1) in the REDCap database, with interactive configuration on the online\
+      \ designer (linking to appropriate web-based ontology definitions of use)\n\
+      \ \n 5) Possibly extend the capabilities of the ontology lookup fields in REDCap\
+      \ by storing additional ontology information of data values on input (this may\
+      \ not be necessary)\n \n 6) To include a patient consent component into REDCap\
+      \ project. This means provide ontology consent coding to attach to project specific\
+      \ consent requirements, including a participant interactive dashboard \u2013\
+      \ this would be time dependent and possibly not achievable during hacakthon.\
+      \ \n \n 7) To include a project configuration component for clinical research\
+      \ project definition and meta data specifications (to be appended in Item 1\
+      \ module)"
+    hacking_topic: FAIRifying REDCap Clinical Research Data Collection
+    leads: "Katherine Johnston\n Mamana Mbiyavanga <Mamana>\n \n Computational Biology\
+      \ Division, University of Cape Town, South Africa"
+    nominated_participant: We will seek potential collaborators from the data platform
+      and human/rare disease communities in ELIXIR
+    number: '42'
+    number_of_expected_hacking_days: '4'
+    research_area_alignment: ELIXIR Data Platform
+    title: FAIRifying REDCap Clinical Research Data Collection
+  number: '34'
+  submitter: Nicola Mulder
+  title: FAIRifying REDCap Clinical Research Data Collection
+---

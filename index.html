@@ -1,0 +1,182 @@
+---
+layout: landing
+---
+{% assign latest_landing = site.landings | last %}
+<!-- Banner -->
+<section id="banner" onclick="location.href='{{ site.baseurl }}/about.html'" style="cursor:pointer">
+	<!-- <div class="inner">
+		<div class="title">
+			<a href="{{ site.baseurl }}/index.html"><img src="images/logos/bhlogodarknotx.png" alt="biohackathon logo" /></a>
+			<h2>{{ site.title }}</h2>
+		</div>
+	</div> -->
+      <!-- <div class="video-wrapper">
+        <div class="video">
+          <iframe width="100%" height="100%" 
+          src="https://www.youtube.com/embed/RNIInb72-z0?autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=RNIInb72-z0" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+	  </div>	 -->
+	<div class="video">
+		<iframe width="100%" height="100%" 
+		src="https://www.youtube.com/embed/RNIInb72-z0?autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=RNIInb72-z0" 
+		frameborder="0" 
+		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>	  
+	<div class="logo-ban">
+		<div class="title">
+			<a href="{{ site.baseurl }}/index.html"><img src="images/logos/bhlogolightnotx.png" alt="biohackathon logo" /></a>
+			<h2>{{ site.title }}</h2>
+		</div>
+	</div>
+	<a href="#landing-background" class="more scrolly">Learn More</a>
+</section>
+
+<!-- One -->
+<section id="landing-background" class="wrapper style3 special">
+	<div class="inner">
+		<header class="major">
+			<h2>Background</h2>
+			<div class="row">
+				<div class="10u 12u$(medium)">
+					<p>{{ latest_landing.background | markdownify }}</p>
+				</div>
+				<div class="2u 12u$(medium)">
+					<div class="image fit">
+						<img src="images/logos/elixir_logo_white.png" alt="" />
+					</div>
+				</div>				
+			</div>
+		</header>
+	</div>
+</section>
+
+<!-- Two -->
+<section id="landing-scope" class="wrapper alt style2">
+	<section class="spotlight">
+		<div class="image">
+			<img src="images/gene_mark.jpg" alt="" />
+		</div>
+		<div class="content">
+			<h2>Scope</h2>
+			<p>{{ latest_landing.scope | markdownify }}</p>
+		</div>
+	</section>
+	<section id="landing-goal" class="spotlight">
+		<div class="image">
+			<img src="images/hacking.jpg" alt="" />
+		</div>
+		<div class="content">
+			<h2>Goals</h2>
+			<ul>
+				<li>Advance the development of an open-source infrastructure for data integration to accelerate scientific
+					innovation focusing
+					on technology implementations of FAIR, identifiers, metadata standards, ontologies and metadata catalogues that
+					support the
+					operations across <a href="https://www.elixir-europe.org/platforms" target="_blank">ELIXIR Technical Platforms</a>
+					(Compute, Data, Interoperability, Tools, and Training)</li>
+				<li>Engage the technical people in the bioinformatics community inside and outside ELIXIR to work together on
+					topics of common
+					interest aligned to ELIXIR activities</li>
+				<li>Strengthen the interactions with ELIXIR Platforms and Communities to establish and reinforce collaborations
+					through hands-on
+					programming activities organised at the event.</li>
+			</ul>
+		</div>
+	</section>
+	<section id="landing-funding" class="spotlight">
+		<div class="image">
+			<img src="images/venue.jpg" alt="" />
+		</div>
+		<div class="content">
+			<h2>Expenses and funding</h2>
+			<h4>Travel and accommodation</h4>
+			<p>Registration for the BioHackathon is free and includes all meals and refreshments during the meeting when accommodation is booked at the venue.</p>
+			<h4>Registration will be done in two phases</h4>
+			<ul type="I">
+				<li>Participants nominated to work on selected  projects (link to call for projects) will be invited to register first (approx 60 participants)</li>
+				<li>Registration open to everyone will be open in June.</li>
+			</ul>
+			<p>Participants <b>are expected to cover their accommodation and travel unless invited by project leads of selected projects (see selected proposals)</b>. Staying at the venue is highly preferred, since it maximises networking with all participants and gets the most out of the hacking. </p>
+			<a href="{{ site.baseurl }}/venue.html" class="button fit">Venue and accommodation details</a>
+		</div>
+	</section>
+	<section id="landing-benefit" class="spotlight">
+		<div class="image">
+			<img src="images/team-building.jpg" alt="" />
+		</div>
+		<div class="content">
+			<h2>Benefits</h2>
+			<h4>New developments</h4>
+			<ul>
+				<li>Prototypes, proof-of-concepts or drafts that can evolve later and be integrated into production (or could be
+					identified as something that is better dismissed at that time)</li>
+			</ul>
+			<h4>Existing developments and resources</h4>
+			<ul>
+				<li>Testing new versions</li>
+				<li>Gathering information on possible new features</li>
+				<li>Reaching new users and improving awareness</li>
+			</ul>
+			<h4>Personal and community building</h4>
+			<ul>
+				<li>Collaborative learning emerged from discussions with peers</li>
+				<li>Sharing interests that could bring people to organise or grow communities</li>
+			</ul>
+		</div>
+	</section>
+</section>
+
+<!-- Three -->
+<section id="landing-processprop" class="wrapper style3 special">
+	<div class="inner">
+		<header class="major">
+			<h2>Hacking Topics</h2>
+			<p>In January, we asked for expression of interest for ELIXIR members to submit project titles so we could plan what
+				potential areas participants were interested in. We now request that full submission are made following “Call for
+				Proposal” directions.</p>
+			<p>Selected hacking topics will be published here once reviewed by the Biohackathon Organising Committee. We are
+				expecting topics to align well with the current interest of life science communities at large. These may include
+				standardised workflows, containerisation, schemas and identifiers, ontology tooling, metadata validation, and
+				training. We encourage submissions of hacking topics from the public and private sector.</p>
+		</header>
+		<ul class="features">
+			<li class="feat">
+				<h3><i class="fas fa-industry"></i> Industry engagement</h3>
+				<p>Companies interested in submitting hacking projects to our ‘Biohackathon 2020 Industry Track’ should contact
+					Kathi Lauer (ELIXIR Industry Officer) for more information.</p>
+				<a href="mailto:katharina.lauer@elixir-europe.org" class="button fit special">Contact</a>
+			</li>
+		</ul>
+		<a class="button fit special" href="{{ site.baseurl }}/ipdiscl.html">IP Disclaimer</a>
+	</div>
+</section>
+<section id="landing-venue" class="wrapper alt style2">
+	<section class="spotlight">
+		<div class="google-maps">
+			 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.7350058861934!2d2.057663315771621!3d41.57497947924738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a493511f229323%3A0x1cb1e67daa8fc12a!2sCh%C3%A2teauform&#39;%20Campus%20La%20Mola!5e0!3m2!1sen!2suk!4v1583081526397!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>			 
+		</div>
+		<div class="content">
+			<h2>Venue</h2>
+			<p><a href="https://www.chateauform.com/en/house/campus-la-mola/">Campus La Mola</a>
+				<br /> Camí dels Plans de Can Bonvilar, S/N, 08227 Terrassa, Barcelona, Spain</p>
+			<a href="/chaletdesc" class="button small fit">Chalet</a>
+		</div>
+	</section>
+</section>
+<!-- CTA -->
+<!-- <section id="cta" class="wrapper style4">
+	<div class="inner">
+		<header>
+			<h2>Registration</h2>
+			<p>Registration will be open on the 1st of June</p>
+			<a href="{{ site.baseurl }}/registration" class="button special">More information</a>
+		</header>
+		<ul class="actions vertical">
+			<li>
+				<a href="https://github.com/elixir-europe/BioHackathon-projects-2019" class="button fit">BH repo</a>
+			</li>
+		</ul>
+	</div>
+</section> -->

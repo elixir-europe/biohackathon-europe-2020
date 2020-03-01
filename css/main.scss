@@ -1352,6 +1352,7 @@ body.is-menu-visible {
 		margin: 3px 0 0 2em;
 		height: 85%;		
 		img {
+			padding: 0.2em;
 			width: auto;
 			height: 100%;
 		}
@@ -1476,6 +1477,7 @@ body.is-menu-visible {
 		height: 100%;
 		opacity: 50%;
 		filter: blur(2px);
+		-webkit-filter: blur(2px);
 	}	
 	.logo-ban {
 		// top: 0;

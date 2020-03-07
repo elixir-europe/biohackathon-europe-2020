@@ -3,21 +3,29 @@ layout: landing
 ---
 {% assign latest_landing = site.landings | last %}
 <!-- Banner -->
-<section id="banner" onclick="location.href='{{ site.baseurl }}/about.html'" style="cursor:pointer">
-	<div class="video">
+<section id="banner">
+	<div class="video" onclick="location.href='{{ site.baseurl }}/about.html'" style="cursor:pointer">
 		<iframe width="100%" height="100%" 
 		src="https://www.youtube.com/embed/RNIInb72-z0?autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=RNIInb72-z0" 
 		frameborder="0" 
 		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div>	  
-	<div class="logo-ban">
-		<div class="title">
-			<a href="{{ site.baseurl }}/index.html"><img src="images/logos/bhlogolightnotx.png" alt="BioHackathon logo" /></a>
-			<h2>{{ site.title }}</h2>
-			<p>BARCELONA 2020 NOVEMBER 9th - 13th</p>
-		</div>
 	</div>
-	<a href="#landing-background" class="more scrolly">Learn More</a>
+	<div class="inner">
+		<div class="logo-ban">
+			<div class="title">
+				<a href="{{ site.baseurl }}/index.html"><img src="images/logos/bhlogolightnotx.png" alt="BioHackathon logo" /></a>
+				<h2>{{ site.title }}</h2>
+				<p>BARCELONA 2020 NOVEMBER 9th - 13th</p>
+			</div>
+			<ul class="actions">
+				<li>
+					<!-- <p>Call to proposals now open</p> -->
+					<a href="{{ site.baseurl }}/proposalscall" class="button special">Call to proposals now open</a>
+				</li>		
+			</ul>		
+		</div>
+		<a href="#landing-background" class="more scrolly">Learn More</a>
+	</div>	  
 </section>
 
 <!-- One -->
@@ -82,7 +90,7 @@ layout: landing
 			<p>Registration for the BioHackathon is free. The cost of accommodation includes all meals and refreshments during the meeting when booked at the venue.</p>
 			<h4>Registration will be done in two phases</h4>
 			<ul type="I">
-				<li>Participants nominated to work on selected  projects (link to call for projects) will be invited to register first (approx 60 participants)</li>
+				<li>Participants nominated to work on selected projects will be invited to register first (approx 60 participants)</li>
 				<li>Registration open to everyone will be open in June.</li>
 			</ul>
 			<p>Participants <b>are expected to cover their accommodation and travel unless invited by project leads of selected projects (see selected proposals)</b>. Staying at the venue is highly preferred, since it maximises networking with all participants and gets the most out of the hacking. </p>
@@ -135,6 +143,36 @@ layout: landing
 					Kathi Lauer (ELIXIR Industry Officer) for more information.</p>
 				<a href="mailto:katharina.lauer@elixir-europe.org" class="button fit special">Contact</a>
 			</li>
+			<li class="feat">
+				<h3><i class="fa fa-code"></i> Call for proposals</h3>
+				<p>The call for hacking projects is open from <b>2nd March </b>and will close on <b>2th April</b> 2019. The
+					project leader will submit through the <a href="https://easychair.org/conferences/?conf=bh2019">EasyChair
+						submission</a></p>
+
+				<a href="https://easychair.org/conferences/?conf=bh2019" class="button fit special">EasyChair
+					submission</a>
+			</li>
+			<li class="feat">
+				<h3>Information required</h3>
+				<ul>
+					<li>Title and description of the project (300 word max)</li>
+					<li>Representation: which will include details around alignment with ELIXIR platforms/communities or project’s external community importance</li>
+					<li>Project Lead’s contact details who will be main correspondent (we will only contact this main correspondent even though there are multiple leads)</li>
+					<li>Expected outcomes from BioHackathon and beyond </li>
+					<li>Expected Audience: type of participant needed to help with the project</li>
+					<li>Number of days for the hack (NB it is expected that all participants stay for the 4 days even though some projects may be shorter)</li>
+					<li>Is there a specific person (2 max) from Europe you would like to invite that is critical to the success of the project? (name /institute/email)</li>
+				</ul>
+			</li>
+			<li class="feat">
+				<h3>Selection criteria</h3>
+				<p>The programme organising committee will select the project based on the following criteria</p>
+				<ul>
+					<li>Scientific interest/alignment to ELIXIR platforms/community goals </li>
+					<li>Are outcomes achievable in the timeframe suggested </li>
+					<li>How many nodes/people likely to participate</li>
+				</ul>					
+			</li>			
 		</ul>
 		<a class="button fit special" href="{{ site.baseurl }}/ipdiscl.html">IP Disclaimer</a>
 	</div>

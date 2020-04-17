@@ -1,0 +1,79 @@
+I"T<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Symposium</th>
+      <th>Hackathon</th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td><strong>Nov 12</strong></td>
+      <td><strong>Nov 13</strong></td>
+      <td><strong>Nov 14</strong></td>
+      <td><strong>Nov 15</strong></td>
+      <td><strong>Nov 16</strong></td>
+    </tr>
+    <tr>
+      <td>07:00 - 09:00</td>
+      <td> </td>
+      <td>Breakfast</td>
+      <td>Breakfast</td>
+      <td>Breakfast</td>
+      <td>Breakfast</td>
+    </tr>
+    <tr>
+      <td>09:00 - 11:30</td>
+      <td>Collocated meetings (COST)</td>
+      <td>Hack</td>
+      <td>Hack</td>
+      <td>Hack</td>
+      <td>Hack</td>
+    </tr>
+    <tr>
+      <td>11:30 - 12:00</td>
+      <td>Collocated meetings (COST)</td>
+      <td>Hack</td>
+      <td>Report</td>
+      <td>Report</td>
+      <td>Report</td>
+    </tr>
+    <tr>
+      <td>12:00 - 13:00</td>
+      <td>Lunch &amp; Registration</td>
+      <td>Lunch</td>
+      <td>Lunch</td>
+      <td>Lunch</td>
+      <td>Lunch</td>
+    </tr>
+    <tr>
+      <td>13:00 - 19:00</td>
+      <td>Opening &amp; Talks</td>
+      <td>Hack</td>
+      <td>Hack</td>
+      <td>Hack</td>
+      <td>Writethon</td>
+    </tr>
+    <tr>
+      <td>19:00 - 20:00</td>
+      <td>Dinner</td>
+      <td>Dinner</td>
+      <td>Dinner</td>
+      <td>Dinner</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>20:00 - 24:00</td>
+      <td>Socialisethon</td>
+      <td>Socialisethon</td>
+      <td>Socialisethon</td>
+      <td>Socialisethon</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+:ET

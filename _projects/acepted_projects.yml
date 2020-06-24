@@ -80,7 +80,7 @@ project_list:
   leads: "Sirarat Sarntivijai, sirarat.sarntivijai@elixir-europe.org\n Jane Lomax,\
     \ jane@scibite.com\n Damion Dooley, Damion.Dooley@bccdc.ca\n Joan Marc Reira,\
     \ marc@ribox.co.uk"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/4
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/3
   nominated_participant: '- local wine expert (to be named)'
   number: 3
   number_of_expected_hacking_days: 2-4
@@ -112,7 +112,7 @@ project_list:
   hacking_topic: "Data Platform\n Interoperability Platform\n Tools Platform"
   leads: "- John Zobolas <john.zobolas@ntnu.no> (AUTHOR1)\n - Jin-Dong Kim <jdkim@dbcls.rois.ac.jp>\n\
     \ - Martin Kuiper <martin.kuiper@ntnu.no>\n - Steven Vercruysse <steven.vercruysse@ntnu.no>"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/6
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/4
   nominated_participant: 'Nominated participant: Jin-Dong Kim <jdkim@dbcls.rois.ac.jp>,
     who is the main developer and project leader of the PubDictionaries (http://pubdictionaries.org/)
     and PubAnnotation (http://pubannotation.org/) platforms.'
@@ -147,7 +147,7 @@ project_list:
     \ Luis A P\xE9rez-Jurado. Universitat Pompeu Fabra, Centro de Investigaci\xF3\
     n Biom\xE9dica en Red de Enfermedades Raras. luis.perez@upf.edu\n \n Alejandro\
     \ C\xE1ceres. Barcelona Institute for Global Health (ISGlobal). alejandro.caceres@isglobal.org"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/8
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/5
   nominated_participant: "Alejandro C\xE1ceres. alejandro.caceres@isglobal.org"
   number: 5
   number_of_expected_hacking_days: 4 days
@@ -167,7 +167,7 @@ project_list:
   hacking_topic: "Bioschemas\n Compute Platfrom\n Covid-19\n Tools Platform"
   leads: "Pjotr Prins <jprins@uthsc.edu>\n \"Garcia-Castro, Leyla Jael\" <ljgarcia@zbmed.de>\n\
     \ Tazro Ohta <t.ohta@dbcls.rois.ac.jp>"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/13
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/6
   nominated_participant: "Pjotr Prins <jprins@uthsc.edu>\n Thomas Liener <liener.tom@gmail.com>"
   number: 6
   number_of_expected_hacking_days: '4'
@@ -199,7 +199,7 @@ project_list:
   leads: "David Salgado - david.salgado@univ-amu.fr - author1\n Salvador Capella-Gutierrez\
     \ - salvador.capella@bsc.es\n Krzysztof Poterlowicz - K.Poterlowicz1@bradford.ac.uk\n\
     \ Bj\xF6rn Gr\xFCning - bjoern.gruening@gmail.com"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/14
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/7
   nominated_participant: To be defined once the project accepted. Will be one of the
     project leaders or additional contributors such as Steve Laurie CNAG-CRG or Lennart
     Johansson UMCG
@@ -230,7 +230,7 @@ project_list:
   hacking_topic: "Covid-19\n Data Platform\n Proteomics"
   leads: "Mihaly Varadi - mvaradi@ebi.ac.uk*\n Sreenath Nair - sreenath@ebi.ac.uk\n\
     \ Ian Sillitoe - i.sillitoe@ucl.ac.uk\n Gerardo Tauriello - gerardo.tauriello@unibas.ch"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/15
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/8
   nominated_participant: "Sreenath Nair - sreenath@ebi.ac.uk\n Ian Sillitoe - i.sillitoe@ucl.ac.uk"
   number: 8
   number_of_expected_hacking_days: '2'
@@ -268,7 +268,7 @@ project_list:
   hacking_topic: "industry\n Interoperability Platform\n Machine learning\n Training\
     \ Platform"
   leads: AUTHOR1 Malvika Sharan (msharan@turing.ac.uk)
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/16
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/9
   nominated_participant: "Tony Yang (tony@tony.ac)\n Sarah Gibson (sgibson@turing.ac.uk)"
   number: 9
   number_of_expected_hacking_days: '3'
@@ -298,7 +298,7 @@ project_list:
     \ Disease\n Tools Platform"
   leads: "Jon Ison (jon.c.ison@gmail.com) - corresponding author\n Hans Ienasescu\
     \ (hans@bio.tools) \n Erik Jaaniso (erik.jaaniso@ut.ee)"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/17
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/10
   nominated_participant: "Jon Ison, jon.c.ison@gmail.com\n Alban Gaignard, alban.gaignard@univ-nantes.fr"
   number: 10
   number_of_expected_hacking_days: '4'
@@ -325,7 +325,7 @@ project_list:
   hacking_topic: "Machine learning\n Tools Platform"
   leads: "Hans Ienasescu (hans@bio.tools) (corresponding author-author1)\n Erik Jaaniso\
     \ (erik.jaaniso@ut.ee)\n Jon Ison (jon.c.ison@gmail.com)"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/18
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/11
   nominated_participant: "Hans Ienasescu (hans@bio.tools)\n Erik Jaaniso (erik.jaaniso@ut.ee)"
   number: 11
   number_of_expected_hacking_days: '4'
@@ -354,7 +354,7 @@ project_list:
   hacking_topic: "Containers\n Data Platform\n Federated Human Data\n GA4GH partnership\n\
     \ Interoperability Platform\n Rare Disease"
   leads: Mark D Wilkinson (mark.wilkinson@upm.es)
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/19
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/12
   nominated_participant: "Mark D Wilkinson\n Pablo Alarcon"
   number: 12
   number_of_expected_hacking_days: '4'
@@ -386,7 +386,7 @@ project_list:
     \ Tools Platform"
   leads: "Emma Schymanski emma.schymanski@uni.lu corresponding\n Steffen Neumann sneumann@ipb-halle.de\n\
     \ Evan Bolton bolton@ncbi.nlm.nih.gov"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/20
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/13
   nominated_participant: "Evan Bolton (PubChem) <bolton@ncbi.nlm.nih.gov>\n Venkatesh\
     \ Muthukrishnan <venkat@ebi.ac.uk>"
   number: 13
@@ -414,7 +414,7 @@ project_list:
   hacking_topic: "Compute Platfrom\n Galaxy\n Machine learning"
   leads: "Author 1, Nicholas Allsopp - nicholas.allsopp@atos.net\n Author 2, Albert\
     \ Trill - albert.trill@atos.net"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/21
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/14
   nominated_participant: "Author 1, Nicholas Allsopp - nicholas.allsopp@atos.net\n\
     \ Author 2, Albert Trill - albert.trill@atos.net"
   number: 14
@@ -447,7 +447,7 @@ project_list:
   hacking_topic: "EOSC-life\n Galaxy\n Interoperability Platform"
   leads: "Ignacio Eguinoa (ignacio.eguinoa@psb.ugent.be) - corresponding author\n\
     \ Frederik Coppens (frcop@psb.vib-ugent.be)"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/23
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/15
   nominated_participant: "Marius van den Beek - Galaxy Team member (m.vandenbeek@gmail.com)\n\
     \ John Chilton - Galaxy Team member(jmchilton@gmail.com)"
   number: 15
@@ -471,7 +471,7 @@ project_list:
     metrics.
   hacking_topic: Tools Platform
   leads: Eva Martin del Pico (eva.mdpico@gmail.com) - author1
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/24
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/16
   nominated_participant: "Morane Gruenpeter. Software Heritage (morane.gg@gmail.com)\n\
     \ Neil Chue Hong. Software Sustainability Institute (n.chuehong@software.ac.uk)"
   number: 16
@@ -499,7 +499,7 @@ project_list:
     \ Marine Metagenomics\n Tools Platform"
   leads: "Nicola Soranzo <nicola.soranzo@earlham.ac.uk>\n Herv\xE9 M\xE9nager <herve.menager@pasteur.fr>\n\
     \ John Chilton <john.chilton@gmail.com>\n Michael Crusoe <mrc@commonwl.org>"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/26
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/17
   nominated_participant: "Marius van den Beek <m.vandenbeek@gmail.com>\n Nicola Soranzo\
     \ <nicola.soranzo@earlham.ac.uk>"
   number: 17
@@ -524,7 +524,7 @@ project_list:
     \ in Galaxy.\n - Improve job resubmission support."
   hacking_topic: "Compute Platfrom\n Galaxy\n Tools Platform"
   leads: Marco Antonio Tangaro <ma.tangaro@ibiom.cnr.it> (IT)
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/28
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/18
   nominated_participant: "Marco Antonio Tangaro <ma.tangaro@ibiom.cnr.it> (IT) - Ansible,\
     \ Bash, Cloud computing, Docker, Galaxy, Python\n \n Pablo Moreno <pmoreno@ebi.ac.uk>\
     \ (UK) - Galaxy on Kubernetes, Galaxy on LSF, Cloud computing, Python, Ansible,\
@@ -552,7 +552,7 @@ project_list:
     which can easily be integrated within Identfiers.org or third party applications.
   hacking_topic: Interoperability Platform
   leads: Manuel Bernal Llinares <mbernal@ebi.ac.uk>
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/29
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/19
   nominated_participant: "Javier Ferrer <jferrer@ebi.ac.uk>\n Nick Juty <nick.juty@manchester.ac.uk>"
   number: 19
   number_of_expected_hacking_days: '4'
@@ -579,7 +579,7 @@ project_list:
   hacking_topic: "Biodiversity\n Data Platform\n Tools Platform"
   leads: "Anna Sandionigi anna.sandionigi@unimib.it (corresponding)\n Dario Pescini\
     \ dario.pescini@unimib.it"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/30
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/20
   nominated_participant: "Donat Agosti agosti@amnh.org (text-mining expert)\n Bachir\
     \ Balech b.balech@ibiom.cnr.it (taxonomy data management expert)"
   number: 20
@@ -604,7 +604,7 @@ project_list:
   hacking_topic: Tools Platform
   leads: "Mateusz Kuzak (m.kuzak@esciecencenter.nl) corresponding\n Allegra Via (allegra.via@cnr.it)\n\
     \ Fotis Psomopoulos (fpsom@certh.gr)"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/32
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/21
   nominated_participant: "Steve Crouch (s.crouch@software.ac.uk)\n Dimitrios Bampalikis\
     \ (dimitrios.bampalikis@nbis.se)"
   number: 21
@@ -632,7 +632,7 @@ project_list:
   hacking_topic: "Bioschemas\n Covid-19\n Data Platform\n Federated Human Data\n Interoperability\
     \ Platform\n Plant Sciences"
   leads: "Daniela Butano - daniela@intermine.org\n Jerven Bolleman - Jerven.Bolleman@sib.swiss"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/33
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/22
   nominated_participant: "Jerven Bolleman - Jerven.Bolleman@sib.swiss\n Daniela Butano\
     \ - daniela@intermine.org"
   number: 22
@@ -659,7 +659,7 @@ project_list:
   hacking_topic: Interoperability Platform
   leads: "* Yo Yehudi yo@intermine.org\n Flavio Licciulli flavio.licciulli@ba.itb.cnr.it\n\
     \ R\xE9mi Planel remi.planel@pasteur.fr\n Herv\xE9 Menager herve.menager@pasteur.fr"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/37
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/23
   nominated_participant: "Yo Yehudi - yo@intermine.org\n Flavio - flavio.licciulli@ba.itb.cnr.it"
   number: 23
   number_of_expected_hacking_days: '4'
@@ -683,7 +683,7 @@ project_list:
   hacking_topic: "Bioschemas\n Interoperability Platform\n Intrinsically Disordered\
     \ Community\n Plant Sciences\n Rare Disease"
   leads: Alasdair Gray A.J.G.Gray@hw.ac.uk
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/38
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/24
   nominated_participant: "Petros Papadopoulos <p.papadopoulos@hw.ac.uk>\n Ivan Micetic\
     \ <ivan.micetic@unipd.it>"
   number: 24
@@ -715,7 +715,7 @@ project_list:
     \ Erik Garrison (erik.garrison@ucsc.edu)\n Jerven Bollemann (jerven.bolleman@sib.swiss)\n\
     \ Toshiyuki Yokoyama (toshiyuki.t.yokoyama@gmail.com)\n Lukas Heumos (lukas.heumos@posteo.net)\n\
     \ Philipp Ehmele (philipp_ehm@protonmail.com)"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/39
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/25
   nominated_participant: "Erik Garrison (erik.garrison@ucsc.edu)\n Simon Heumos (simon.heumos@qbic.uni-tuebingen.de)"
   number: 25
   number_of_expected_hacking_days: '4'
@@ -740,7 +740,7 @@ project_list:
   hacking_topic: Compute Platfrom
   leads: "- Hirotaka Suetake (suehiro619@gmail.com)\n - Manabu Ishii (manabu@genome-analytics.co.jp)\n\
     \ - Tomoya Tanjo (tanjo@nii.ac.jp)"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/41
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/26
   nominated_participant: "- Hirotaka Suetake (suehiro619@gmail.com)\n - Tomoya Tanjo\
     \ (tanjo@nii.ac.jp)"
   number: 26
@@ -773,7 +773,7 @@ project_list:
     \ Tools Platform"
   leads: "1) Marek Ostaszewski, marek.ostaszewski@uni.lu, corresponding author\n 2)\
     \ Andrew P. Stubbs, a.stubbs@erasmusmc.nl\n 3) Chris T. Evelo chris.evelo@maastrichtuniversity.nl"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/43
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/27
   nominated_participant: "Willem de Koning, Erasmus MC, w.dekoning@erasmusmc.nl\n\
     \ Helena Rasche, Erasmus MC, helena.rasche@gmail.com"
   number: 27
@@ -810,7 +810,7 @@ project_list:
   leads: "Dr. Venkata Satagopam venkata.satagopam@elixir-luxembourg.org (corresponding\
     \ author-author1)\n Dr. Salvador Capella salvador.capella@bsc.es\n Dr. Jordi Rambla\
     \ De Argila jordi.rambla@crg.eu\n Dr. Wei Gu wei.gu@elixir-luxembourg.org"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/44
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/28
   nominated_participant: "Dr. Tim Beck \n UKRI Innovation Fellow at Health Data Research\
     \ UK\n Email: timbeck@leicester.ac.uk\n \n Kees van Bochove \n Thehyve (and EHDEN)\n\
     \ Email: kees@thehyve.nl"
@@ -845,7 +845,7 @@ project_list:
     \ Celia van Gelder; celia.van.gelder@dtls.nl\n Jessica Lindvall; jessica.lindvall@nbis.se\n\
     \ Patricia Palagi; Patricia.Palagi@sib.swiss\n Alexia Cardona; ac812@cam.ac.uk\n\
     \ Victoria Dominguez del Angel; victoria.dominguez@france-bioinformatique.fr"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/47
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/29
   nominated_participant: "Patricia Palagi \n Alexia Cardona"
   number: 29
   number_of_expected_hacking_days: '4'
@@ -882,7 +882,7 @@ project_list:
     \ [ robert.hoehndorf@kaust.edu.sa ], \n Paul N Schofield [ pns12@hermes.cam.ac.uk\
     \ ], \n Philippe Rocca-Serra [ philippe.rocca-serra@oerc.ox.ac.uk ]\n Rajaram\
     \ Kaliyaperumal [ R.Kaliyaperumal@lumc.nl ]"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/49
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/30
   nominated_participant: "N\xFAria Queralt-Rosinach [ nqueralt.r@gmail.com ],\n Rajaram\
     \ Kaliyaperumal [ R.Kaliyaperumal@lumc.nl ]"
   number: 30
@@ -908,7 +908,7 @@ project_list:
     \ and orchestration"
   hacking_topic: "Compute Platfrom\n Containers\n EOSC-life\n Galaxy\n Tools Platform"
   leads: Kiran K Telukunta <kiran.telukunta@psb.vib-ugent.be>
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/50
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/31
   nominated_participant: "Pablo Moreno<pmoreno@ebi.ac.uk> Expression Atlas Data Production\
     \ Project Lead\n Nuwan Goonasekera<nuwan.goonasekera@unimelb.edu.au>"
   number: 31
@@ -936,7 +936,7 @@ project_list:
   hacking_topic: "Data Platform\n Interoperability Platform\n Plant Sciences\n Tools\
     \ Platform"
   leads: "Name: Flora D\u2019Anna\n Email: flora.danna@ugent.vib.be"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/52
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/32
   nominated_participant: "- Stuart Owen, UMAN for FAIRDOMHub/SEEK, stuart.owen@manchester.ac.uk\n\
     \ - Philippe Rocca-Serra, Uni of Oxford for ISA format, philippe.rocca-serra@oerc.ox.ac.uk"
   number: 32
@@ -967,7 +967,7 @@ project_list:
   leads: "Quentin Groom quentin.groom@plantentuinmeise.be (corresponding author)\n\
     \ Mathias Dillen mathias.dillen@plantentuinmeise.be\n Pieter Huybrechts pieter.huybrechts@plantentuinmeise.be\n\
     \ Maarten Trekels maarten.trekels@plantentuinmeise.be\n Andra Waagmeester andra@micel.io"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/53
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/33
   nominated_participant: Maarten Trekels
   number: 33
   number_of_expected_hacking_days: '4'
@@ -1011,7 +1011,7 @@ project_list:
   leads: "Maria Pe\xF1a-Chilet (author)\n mariapch84@gmail.com\n \n Joaquin Dopazo\
     \ (corresponing author)\n joaquin.dopazo@juntadeandalucia.es\n Clinical Bioinformatics\
     \ Area - FPS (Fundacion Progreso y Salud)"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/54
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/34
   nominated_participant: "Maria Pe\xF1a-Chilet mariapch84@gmail.com\n Jose Luis Fernandez-Rueda\
     \ josel.fernandez.rueda@juntadeandalucia.es"
   number: 34
@@ -1044,7 +1044,7 @@ project_list:
   leads: "Jose Emilio Labra Gayo, labra@uniovi.es (corresponding author)\n Andra Waagmeester,\
     \ andra@micel.io\n Eric Prud\u2019hommeaux, eric@w3.org\n Dan Brickley, danbri@danbri.org\n\
     \ John Samuel, john.samuel@cpe.fr"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/55
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/35
   nominated_participant: "Alejandro Gonz\xE1lez Hevia, alendrgh11@gmail.com\n Jose\
     \ Emilio Labra Gayo, labra@uniovi.es"
   number: 35
@@ -1067,7 +1067,7 @@ project_list:
     manipulate and plot the query result data, with feedback displayed in the webapp.
   hacking_topic: Interoperability Platform
   leads: Kevin Herald Reierskog - khr29@cam.ac.uk
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/56
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/36
   nominated_participant: "Kevin Herald Reierskog - khr29@cam.ac.uk\n Sergio Contrino\
     \ - contrino.it@gmail.com"
   number: 36
@@ -1094,7 +1094,7 @@ project_list:
     \ Platform"
   leads: "Ben Busby bbusby@dnanexus.com\n Jason Chin jchin@dnanexus.com\n eric.t.dawson@gmail.com\n\
     \ anc174@pitt.edu\n nick.giangreco@gmail.com"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/57
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/37
   nominated_participant: "Andrew Clugston -- anc174@pitt.edu\n Nick Giangreco -- nick.giangreco@gmail.com"
   number: 37
   number_of_expected_hacking_days: '4'
@@ -1120,7 +1120,7 @@ project_list:
   hacking_topic: "Data Platform\n Interoperability Platform\n Machine learning\n Tools\
     \ Platform"
   leads: Toshiaki Katayama <ktym@dbcls.jp>
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/58
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/38
   nominated_participant: "Toshiaki Katayama <ktym@dbcls.jp>\n Shuichi Kawashima <kwsm@dbcls.rois.ac.jp>\n\
     \ Daisuke Satoh <daisuke.satoh@lifematics.co.jp>\n Ryosuke Kojima <kojima.ryosuke.8e@kyoto-u.ac.jp>\n\
     \ Mayumi Kamada <mkamada@kuhp.kyoto-u.ac.jp>"

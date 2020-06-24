@@ -41,12 +41,10 @@ def load_all_projects():
             if line_count == 0:
                 print(f'Projects column names are {", ".join(row)}')
 
-            project_link = PROJECTS_REPOSITORY.format(
-                number=row.get(PROJECT_NUMBER))
-
-
             if row.get(PROJECT_DECISION) == "Accepted":
                 accepted_count += 1
+                project_link = PROJECTS_REPOSITORY.format(
+                    number=accepted_count)             
                 project = dict(
                     number=accepted_count,
                     authors=row.get(PROJECT_AUTHORS),                

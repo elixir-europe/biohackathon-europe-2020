@@ -50,6 +50,13 @@ social:
   #tripadvisor:
   #amazon:
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - scripts
+
 # Build settings
 markdown: kramdown
 #sass:

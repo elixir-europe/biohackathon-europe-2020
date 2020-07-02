@@ -6,12 +6,13 @@ title: Hacking projects
     {% assign projectVersions = site.projects | sort: 'modified_date' %}
     {% assign latestProjects = projectVersions.first %}    
     <p>These are the selected hacking projects</p>
+    <strong>Easychair Number</strong> - <strong>Project name</strong> - <strong>Project Number</strong>
     <ul>
         {% for project in latestProjects.project_list %}
         <li>
             <a href="{{project.link}}"
                 target="_blank"><strong>{{project.number}}</strong> - {{project.title}}
-                <i class="fab fa-github" aria-hidden="true"></i>
+                <i class="fab fa-github" aria-hidden="true"></i><strong>{{project.project_number}}</strong>
             </a>
         </li>
         {% endfor %}

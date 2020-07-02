@@ -46,7 +46,7 @@ def load_all_projects():
                 project_link = PROJECTS_REPOSITORY.format(
                     number=accepted_count)             
                 project = dict(
-                    number=accepted_count,
+                    number=row.get(PROJECT_NUMBER),
                     authors=row.get(PROJECT_AUTHORS),                
                     title=row.get(PROJECT_TITLE),
                     leads=row.get(PROJECT_LEADS),
@@ -59,7 +59,7 @@ def load_all_projects():
                     decision=row.get(PROJECT_DECISION),
                     abstract=row.get(PROJECT_ABSTRACT),
                     link=project_link,
-                    project_number=row.get(PROJECT_NUMBER)
+                    project_number=accepted_count
                 )                
                 projects.append(project)
             
@@ -70,15 +70,15 @@ def load_all_projects():
 
 def to_file(project):
 
-    path = "{}/{}".format(PROJECTS_FOLDER, project.get("number"))
+    path = "{}/{}".format(PROJECTS_FOLDER, project.get("project_number"))
     os.makedirs(path)
 
     file_name = "{}/{}/README.md".format(PROJECTS_FOLDER,
-                                         project.get("number"))
+                                         project.get("project_number"))
     print("Creating file {}".format(file_name))
 
     with open(file_name, "w+") as output_file:
-        output_file.write("# {} ({})\n\n".format(project.get("title"), project.get("project_number")))
+        output_file.write("# {} ({})\n\n".format(project.get("title"), project.get("number")))
 
         output_file.write("## Abstract\n\n")
         output_file.write(project.get("abstract"))
@@ -87,10 +87,10 @@ def to_file(project):
         output_file.write(project.get("hacking_topic"))
 
         output_file.write(
-            "\n\n**Project Number:** {}\n\n".format(project.get("number")))
+            "\n\n**Project Number:** {}\n\n".format(project.get("project_number")))
         
         output_file.write(
-            "\n\n**EasyChair Number:** {}\n\n".format(project.get("project_number")))
+            "\n\n**EasyChair Number:** {}\n\n".format(project.get("number")))
 
         output_file.write("## Team\n\n")
 
@@ -126,7 +126,7 @@ def main():
             yaml.dump(yaml_projects, default_flow_style=False))
     
     for xls_project in projects:
-        print("* [Project {}](projects/{}) {} ({})".format(xls_project.get("number"), xls_project.get("number"), xls_project.get("title"), xls_project.get("project_number")))
+        print("* [Project {}](projects/{}) {} ({})".format(xls_project.get("project_number"), xls_project.get("project_number"), xls_project.get("title"), xls_project.get("number")))
 
 if __name__ == '__main__':
     main()

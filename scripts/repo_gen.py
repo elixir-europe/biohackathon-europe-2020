@@ -15,6 +15,7 @@ ACPT_PROJECT_SUBMITTER = "submitter"
 
 # EASY CHAIR DUMP PROJECT COLUMNS
 PROJECT_NUMBER = "#"
+PROJECT_EVENBRITE = "EventBrite"
 PROJECT_AUTHORS = "Authors"
 PROJECT_TITLE = "Title"
 PROJECT_ABSTRACT = "Abstract"
@@ -44,7 +45,7 @@ def load_all_projects():
             if row.get(PROJECT_DECISION) == "Accepted":
                 accepted_count += 1
                 project_link = PROJECTS_REPOSITORY.format(
-                    number=accepted_count)             
+                    number=row.get(PROJECT_EVENBRITE))             
                 project = dict(
                     number=row.get(PROJECT_NUMBER),
                     authors=row.get(PROJECT_AUTHORS),                
@@ -59,12 +60,12 @@ def load_all_projects():
                     decision=row.get(PROJECT_DECISION),
                     abstract=row.get(PROJECT_ABSTRACT),
                     link=project_link,
-                    project_number=accepted_count
+                    project_number=row.get(PROJECT_EVENBRITE),
                 )                
                 projects.append(project)
             
             line_count += 1
-
+    projects.sort(key = lambda project: int(project.get("project_number")))
     return projects
 
 
@@ -78,7 +79,7 @@ def to_file(project):
     print("Creating file {}".format(file_name))
 
     with open(file_name, "w+") as output_file:
-        output_file.write("# {} ({})\n\n".format(project.get("title"), project.get("number")))
+        output_file.write("# Project {}: {}\n\n".format(project.get("project_number"), project.get("title")))
 
         output_file.write("## Abstract\n\n")
         output_file.write(project.get("abstract"))
@@ -126,7 +127,7 @@ def main():
             yaml.dump(yaml_projects, default_flow_style=False))
     
     for xls_project in projects:
-        print("* [Project {}](projects/{}) {} ({})".format(xls_project.get("project_number"), xls_project.get("project_number"), xls_project.get("title"), xls_project.get("number")))
+        print("* [Project {}](projects/{}) {}".format(xls_project.get("project_number"), xls_project.get("project_number"), xls_project.get("title")))
 
 if __name__ == '__main__':
     main()

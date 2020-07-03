@@ -26,7 +26,7 @@ project_list:
   nominated_participant: "* Benjamin Wolff <wolff@zbmed.de>\n * Lisa Langnickel <langnickel@zbmed.de>"
   number: '1'
   number_of_expected_hacking_days: 4 days
-  project_number: 1
+  project_number: '1'
   title: Follow-up analysis on BioHackathon-Europe outcomes
 - abstract: Data Stewardship Wizard (DSW, ds-wizard.org) is a flexible tool that helps
     data stewards and researchers in building data management plans together. DSW
@@ -53,38 +53,35 @@ project_list:
     \ miksa@ifs.tuwien.ac.at"
   number: '2'
   number_of_expected_hacking_days: '4'
-  project_number: 2
+  project_number: '2'
   title: Machine-Actionable Data Stewardship Wizard
-- abstract: "https://docs.google.com/document/d/1buY6kI4ysiD8g6PoFYyknHZnaSDfdGfIszd04J9kVLM/edit#\
-    \ Machine learning in high-variability areas, such as food and nutrition, is a\
-    \ very complex problem. Data mining with machine learning is an urgency for the\
-    \ study of dietary intolerance and allergies, especially when accurate labeling\
-    \ is required by laws. Large-scale databasing also introduces demands for structuring\
-    \ information of manufacturer\u2019s data. Lack of semantic implementation to\
-    \ structure food data is a resolvable challenge that can be overcome by using\
-    \ existing technologies equipped with knowledge ..."
-  authors: Sirarat Sarntivijai
+- abstract: In the last few decades we have seen the surfacing and spreading of many
+    novel pathogenic viruses. Some were mutations of the traditional influenza viruses,
+    and some were viruses that crossed the animal-human divide and became a threat
+    to human lives. An example of the former is the influenza A (H1N1) virus that
+    caused a pandemic in 2009 [1], while an example of the latter are highly pathogenic
+    avian influenza A(H7N9), A(H5N1), and A(H5N6), low pathogenic avian influenza
+    A(H7N2), swine influenza A(H1N2)v and A(H3N2) [2]. In he above cases, when a novel
+    virus or bacterial strain for which ...
+  authors: Giacomo Tartari
   decision: Accepted
-  expected_audience: "- members learning database curation by ontologies\n - building\
-    \ application ontologies"
-  expected_outcomes: "1) A summary of findings - Pros & Cons of each wine ontology\
-    \ examined and their capability of data integration and interoperability.\n 2)\
-    \ The test dataset that is curated and mapped to existing wine ontology (-ies)\
-    \ with a follow-up plan of technical implementation at the wine merchant\u2019\
-    s database.\n 3) A report of interoperability between the wine ontologies and\
-    \ Food Ontology for reuse of FoodOn as an application ontology in the practice."
-  hacking_topic: "Data Platform\n industry\n Interoperability Platform\n Training\
+  expected_audience: "Bioinformatics\n Container \n Workflow"
+  expected_outcomes: The ideal final outcome would be a draft ELIXIR Service Bundle
+    that can link together different workflows, tools and literature resources, and
+    can provide a platform for a quick response in case of an outbreak, for example
+    finding candidates for drug retargeting or finding phenotypes naturally resistant
+    to the infection.
+  hacking_topic: "Containers\n Data Platform\n Plant Sciences\n Proteomics\n Tools\
     \ Platform"
-  leads: "Sirarat Sarntivijai, sirarat.sarntivijai@elixir-europe.org\n Jane Lomax,\
-    \ jane@scibite.com\n Damion Dooley, Damion.Dooley@bccdc.ca\n Joan Marc Reira,\
-    \ marc@ribox.co.uk"
+  leads: "Castrense Savojardo castrense.savojardo2@unibo.it\n \n Pier Luigi Martelli\
+    \ pierluigi.martelli@unibo.it"
   link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/3
-  nominated_participant: '- local wine expert (to be named)'
-  number: '4'
-  number_of_expected_hacking_days: 2-4
-  project_number: 3
-  title: 'Wine (Ontology) Tasting: testing technicality in practicality for the food
-    industry'
+  nominated_participant: "Castrense Savojardo castrense.savojardo2@unibo.it\n \n Pier\
+    \ Luigi Martelli pierluigi.martelli@unibo.it"
+  number: '5'
+  number_of_expected_hacking_days: '4'
+  project_number: '3'
+  title: ELIXIR Service Bundle for Epidemic Response
 - abstract: The curation of biological information faces lots of challenges today.
     The constant refactoring of ontologies, nomenclature and identifiers, as well
     as the discovery of new information, makes the life of knowledge curators difficult,
@@ -116,7 +113,7 @@ project_list:
     and PubAnnotation (http://pubannotation.org/) platforms.'
   number: '6'
   number_of_expected_hacking_days: 4 days
-  project_number: 4
+  project_number: '4'
   title: "Unified Biological Dictionaries + PubDictionaries = a curator\u2019s life\
     \ dream"
 - abstract: "ELIXIR\u2019s rare disease community aims to facilitate tools to researchers\
@@ -149,7 +146,7 @@ project_list:
   nominated_participant: "Alejandro C\xE1ceres. alejandro.caceres@isglobal.org"
   number: '8'
   number_of_expected_hacking_days: 4 days
-  project_number: 5
+  project_number: '5'
   title: Detection of epimutations to improve the diagnosis of rare diseases
 - abstract: BioHackrXiv is the publishing platform for Biohackathons. For this hackathon
     we aim to improve the editorial/submission process by automating generation of
@@ -169,7 +166,7 @@ project_list:
   nominated_participant: "Pjotr Prins <jprins@uthsc.edu>\n Thomas Liener <liener.tom@gmail.com>"
   number: '13'
   number_of_expected_hacking_days: '4'
-  project_number: 6
+  project_number: '6'
   title: Improving BioHackrXiv.org
 - abstract: The main objective of this project is to allow an efficient, unbiased
     and reproducible way to benchmark a set of tools through software containerization.
@@ -203,7 +200,7 @@ project_list:
     Johansson UMCG
   number: '14'
   number_of_expected_hacking_days: '4'
-  project_number: 7
+  project_number: '7'
   title: CNV detection software containerisation and benchmark
 - abstract: 3D-Beacons is a new platform being developed under the umbrella of the
     ELIXIR 3D-BioInfo Community. The primary objective of 3D-Beacons is to serve as
@@ -232,7 +229,7 @@ project_list:
   nominated_participant: "Sreenath Nair - sreenath@ebi.ac.uk\n Ian Sillitoe - i.sillitoe@ucl.ac.uk"
   number: '15'
   number_of_expected_hacking_days: '2'
-  project_number: 8
+  project_number: '8'
   title: Integrating modelling services with the 3D-Beacons network
 - abstract: 'Reproducible and ethical research is necessary to ensure that scientific
     work can be trusted. Funders and different stakeholders of scientific projects
@@ -270,7 +267,7 @@ project_list:
   nominated_participant: "Tony Yang (tony@tony.ac)\n Sarah Gibson (sgibson@turing.ac.uk)"
   number: '16'
   number_of_expected_hacking_days: '3'
-  project_number: 9
+  project_number: '9'
   title: 'The Turing Way: A how-to guide to reproducible, ethical and inclusive data
     research'
 - abstract: 'We will host discussion and hacking sessions on one or more of the following:
@@ -300,7 +297,7 @@ project_list:
   nominated_participant: "Jon Ison, jon.c.ison@gmail.com\n Alban Gaignard, alban.gaignard@univ-nantes.fr"
   number: '17'
   number_of_expected_hacking_days: '4'
-  project_number: 10
+  project_number: '10'
   title: EDAM and Tool Information Profiles
 - abstract: 'bio.tools is an ELIXIR Tools Platform service which provides a discovery
     portal for bioinformatics software information. We will host discussion and hacking
@@ -327,7 +324,7 @@ project_list:
   nominated_participant: "Hans Ienasescu (hans@bio.tools)\n Erik Jaaniso (erik.jaaniso@ut.ee)"
   number: '18'
   number_of_expected_hacking_days: '4'
-  project_number: 11
+  project_number: '11'
   title: bio.tools integration and sustainable development
 - abstract: The European Joint Programme on Rare Diseases (EJP-RD) is building an
     interoperability platform for registries and biobanks for rare diseases. RD registries
@@ -356,7 +353,7 @@ project_list:
   nominated_participant: "Mark D Wilkinson\n Pablo Alarcon"
   number: '19'
   number_of_expected_hacking_days: '4'
-  project_number: 12
+  project_number: '12'
   title: "\u201CFederated\u201D query by agents"
 - abstract: Answering complex biological, environmental or toxicological questions
     requires the integration of information (e.g. chemicals, spectra, metadata, biochemical
@@ -389,38 +386,8 @@ project_list:
     \ Muthukrishnan <venkat@ebi.ac.uk>"
   number: '20'
   number_of_expected_hacking_days: '4'
-  project_number: 13
+  project_number: '13'
   title: Extension and Continuous Integration of Cheminformatics Resources and Applications
-- abstract: The exponential growth of high throughput devices, such as next generation
-    sequencing or electron microscopy is generating an unprecedent amount of raw data
-    that needs to be processed, analysed and exploited. The challenge lies in the
-    capability to turn the big data produced by the life sciences workflows into actionable
-    insights. How to do that as quickly as possible while ensuring that all data remains
-    safe and secure? BullSequana Edge has been designed to meet these challenges,
-    delivering powerful AI inference and streaming analytics capabilities at the edge.
-    We propose you to prove the ...
-  authors: Natalia Jimenez
-  decision: Accepted
-  expected_audience: "Researchers developing workflows\n Any research with an interest\
-    \ in accelerating an application \n Galaxy users\n Anyone with an interest in\
-    \ exploring edge computing"
-  expected_outcomes: "There are no rules or constraints; we want you to enjoy playing\
-    \ with Atos Edge, however, we would be interested in watching a demo of your work\
-    \ at the end of the bio hackathon. \n What we want to prove is that traditional\
-    \ data centres and edge computing are the perfect blend to provide powerful analytics\
-    \ and machine learning inference capabilities."
-  hacking_topic: "Compute Platfrom\n Galaxy\n Machine learning"
-  leads: "Author 1, Nicholas Allsopp - nicholas.allsopp@atos.net\n Author 2, Albert\
-    \ Trill - albert.trill@atos.net"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/14
-  nominated_participant: "Author 1, Nicholas Allsopp - nicholas.allsopp@atos.net\n\
-    \ Author 2, Albert Trill - albert.trill@atos.net"
-  number: '21'
-  number_of_expected_hacking_days: That would depend on the nature of the workflow,
-    application or use case chosen by the hacker. We would expect an average of three
-    days.
-  project_number: 14
-  title: Unlock the value of your data computing at the edge
 - abstract: Workflows are essential pieces of software for any computational research
     in life sciences and as such are digital objects in their own right, encapsulating
     methodological know-how. A great deal of work has been put into developing solutions
@@ -445,12 +412,12 @@ project_list:
   hacking_topic: "EOSC-life\n Galaxy\n Interoperability Platform"
   leads: "Ignacio Eguinoa (ignacio.eguinoa@psb.ugent.be) - corresponding author\n\
     \ Frederik Coppens (frcop@psb.vib-ugent.be)"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/15
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/14
   nominated_participant: "Marius van den Beek - Galaxy Team member (m.vandenbeek@gmail.com)\n\
     \ John Chilton - Galaxy Team member(jmchilton@gmail.com)"
   number: '23'
   number_of_expected_hacking_days: '4'
-  project_number: 15
+  project_number: '14'
   title: Exporting rich metadata and provenance from Galaxy using RO-Crate packaging.
 - abstract: Research software are digital objects that depending on the context resemble
     research data. However, the dynamic nature of research software has led to the
@@ -469,12 +436,12 @@ project_list:
     metrics.
   hacking_topic: Tools Platform
   leads: Eva Martin del Pico (eva.mdpico@gmail.com) - author1
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/16
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/15
   nominated_participant: "Morane Gruenpeter. Software Heritage (morane.gg@gmail.com)\n\
     \ Neil Chue Hong. Software Sustainability Institute (n.chuehong@software.ac.uk)"
   number: '24'
   number_of_expected_hacking_days: 2 for discussions and 2 for hacking specific aspects
-  project_number: 16
+  project_number: '15'
   title: FAIR4Software. Automated indicators and metrics measurement.
 - abstract: The exponential increase in the amounts of data generated in the biomedical
     sector as well as the vast computational resources required to analyse and integrate
@@ -504,12 +471,12 @@ project_list:
     \ Platform\n Marine Metagenomics\n Rare Disease\n Tools Platform"
   leads: "Alexander Kanitz <alexander.kanitz@unibas.ch> <corresponding author>\n Jonathan\
     \ Tedds <jonathan.tedds@elixir-europe.org>\n Shubham Kapoor <shubham.kapoor@csc.fi>"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/17
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/16
   nominated_participant: "1. Alexander Kanitz <alexander.kanitz@unibas.ch>\n 2. Shubham\
     \ Kapoor <shubham.kapoor@csc.fi>"
   number: '25'
   number_of_expected_hacking_days: '4'
-  project_number: 17
+  project_number: '16'
   title: 'The ELIXIR Cloud & AAI Platform: Operationalising GA4GH Cloud standards'
 - abstract: "The field of bioinformatics has seen increasing use of the Common Workflow\
     \ Language (CWL) standards to systematically describe computational pipelines.\
@@ -532,12 +499,12 @@ project_list:
     \ Marine Metagenomics\n Tools Platform"
   leads: "Nicola Soranzo <nicola.soranzo@earlham.ac.uk>\n Herv\xE9 M\xE9nager <herve.menager@pasteur.fr>\n\
     \ John Chilton <john.chilton@gmail.com>\n Michael Crusoe <mrc@commonwl.org>"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/18
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/17
   nominated_participant: "Marius van den Beek <m.vandenbeek@gmail.com>\n Nicola Soranzo\
     \ <nicola.soranzo@earlham.ac.uk>"
   number: '26'
   number_of_expected_hacking_days: '4'
-  project_number: 18
+  project_number: '17'
   title: Improve the support of Common Workflow Language in Galaxy
 - abstract: "Galaxy is an open-source web framework for easy-to-use, reproducible,\
     \ and shareable computational life science research, that is used across all ELIXIR\
@@ -557,14 +524,14 @@ project_list:
     \ in Galaxy.\n - Improve job resubmission support."
   hacking_topic: "Compute Platfrom\n Galaxy\n Tools Platform"
   leads: Marco Antonio Tangaro <ma.tangaro@ibiom.cnr.it> (IT)
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/19
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/18
   nominated_participant: "Marco Antonio Tangaro <ma.tangaro@ibiom.cnr.it> (IT) - Ansible,\
     \ Bash, Cloud computing, Docker, Galaxy, Python\n \n Pablo Moreno <pmoreno@ebi.ac.uk>\
     \ (UK) - Galaxy on Kubernetes, Galaxy on LSF, Cloud computing, Python, Ansible,\
     \ Bash"
   number: '28'
   number_of_expected_hacking_days: 4 days
-  project_number: 19
+  project_number: '18'
   title: Hardening and Testing Galaxy cluster support with BioContainer
 - abstract: The Identifiers.org system is a central infrastructure for findable, accessible,
     interoperable and re-usable (FAIR) data. It provides a range of services to generate,
@@ -585,11 +552,11 @@ project_list:
     which can easily be integrated within Identfiers.org or third party applications.
   hacking_topic: Interoperability Platform
   leads: Manuel Bernal Llinares <mbernal@ebi.ac.uk>
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/20
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/19
   nominated_participant: "Javier Ferrer <jferrer@ebi.ac.uk>\n Nick Juty <nick.juty@manchester.ac.uk>"
   number: '29'
   number_of_expected_hacking_days: '4'
-  project_number: 20
+  project_number: '19'
   title: Support tools for efficient FAIRification of Data Resources in life sciences
 - abstract: Currently, the management and visualization of molecular data have become
     a key point due to the strong increase in the availability of information and
@@ -612,12 +579,12 @@ project_list:
   hacking_topic: "Biodiversity\n Data Platform\n Tools Platform"
   leads: "Anna Sandionigi anna.sandionigi@unimib.it (corresponding)\n Dario Pescini\
     \ dario.pescini@unimib.it"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/21
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/20
   nominated_participant: "Donat Agosti agosti@amnh.org (text-mining expert)\n Bachir\
     \ Balech b.balech@ibiom.cnr.it (taxonomy data management expert)"
   number: '30'
   number_of_expected_hacking_days: '4'
-  project_number: 21
+  project_number: '20'
   title: 'CAB: Computer Aided Biodiversity'
 - abstract: "The Software Development Best Practices Working Group of the ELIXIR tools\
     \ platform has been working on the development of the Software Management Plan\
@@ -637,13 +604,13 @@ project_list:
   hacking_topic: Tools Platform
   leads: "Mateusz Kuzak (m.kuzak@esciecencenter.nl) corresponding\n Allegra Via (allegra.via@cnr.it)\n\
     \ Fotis Psomopoulos (fpsom@certh.gr)"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/22
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/21
   nominated_participant: "Steve Crouch (s.crouch@software.ac.uk)\n Dimitrios Bampalikis\
     \ (dimitrios.bampalikis@nbis.se)"
   number: '32'
   number_of_expected_hacking_days: 4 (2 for discussions and 2 for hacking specific
     aspects).
-  project_number: 22
+  project_number: '21'
   title: Adoption of Software Management Plans (SMPs)
 - abstract: InterMine, an ELIXIR Recommended Interoperability Resource, is a platform
     to integrate life science data. The many InterMine installations around the world
@@ -665,12 +632,12 @@ project_list:
   hacking_topic: "Bioschemas\n Covid-19\n Data Platform\n Federated Human Data\n Interoperability\
     \ Platform\n Plant Sciences"
   leads: "Daniela Butano - daniela@intermine.org\n Jerven Bolleman - Jerven.Bolleman@sib.swiss"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/23
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/22
   nominated_participant: "Jerven Bolleman - Jerven.Bolleman@sib.swiss\n Daniela Butano\
     \ - daniela@intermine.org"
   number: '33'
   number_of_expected_hacking_days: '4'
-  project_number: 23
+  project_number: '22'
   title: Federating Accessible InterMine Resources
 - abstract: InterMine, an ELIXIR Recommended Interoperability Resource, collaborated
     in early 2020 with members from ELIXIR France and ELIXIR Italy to build two InterMine
@@ -692,11 +659,11 @@ project_list:
   hacking_topic: Interoperability Platform
   leads: "* Yo Yehudi yo@intermine.org\n Flavio Licciulli flavio.licciulli@ba.itb.cnr.it\n\
     \ R\xE9mi Planel remi.planel@pasteur.fr\n Herv\xE9 Menager herve.menager@pasteur.fr"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/24
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/23
   nominated_participant: "Yo Yehudi - yo@intermine.org\n Flavio - flavio.licciulli@ba.itb.cnr.it"
   number: '37'
   number_of_expected_hacking_days: '4'
-  project_number: 24
+  project_number: '23'
   title: Extending and implementing InterMine databases for ELIXIR nodes
 - abstract: Bioschemas has the potential to automate the collection of content from
     the long-tail of scientific resources for community registries such as FAIRDARE
@@ -716,12 +683,12 @@ project_list:
   hacking_topic: "Bioschemas\n Interoperability Platform\n Intrinsically Disordered\
     \ Community\n Plant Sciences\n Rare Disease"
   leads: Alasdair Gray A.J.G.Gray@hw.ac.uk
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/25
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/24
   nominated_participant: "Petros Papadopoulos <p.papadopoulos@hw.ac.uk>\n Ivan Micetic\
     \ <ivan.micetic@unipd.it>"
   number: '38'
   number_of_expected_hacking_days: '4'
-  project_number: 25
+  project_number: '24'
   title: Exploiting Bioschemas Markup in Community Registries
 - abstract: Variation Graphs are data structures that can accurately represent genetic
     variation in populations and across species. While avoiding inherent biases in
@@ -748,11 +715,11 @@ project_list:
     \ Erik Garrison (erik.garrison@ucsc.edu)\n Jerven Bollemann (jerven.bolleman@sib.swiss)\n\
     \ Toshiyuki Yokoyama (toshiyuki.t.yokoyama@gmail.com)\n Lukas Heumos (lukas.heumos@posteo.net)\n\
     \ Philipp Ehmele (philipp_ehm@protonmail.com)"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/26
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/25
   nominated_participant: "Erik Garrison (erik.garrison@ucsc.edu)\n Simon Heumos (simon.heumos@qbic.uni-tuebingen.de)"
   number: '39'
   number_of_expected_hacking_days: '4'
-  project_number: 26
+  project_number: '25'
   title: Federated Interoperable Annotated Variation Graphs
 - abstract: We have been developing Sapporo as a Workflow Execution Service (WES)
     in DDBJ. This system has been developed with an emphasis on the use of various
@@ -773,12 +740,12 @@ project_list:
   hacking_topic: Compute Platfrom
   leads: "- Hirotaka Suetake (suehiro619@gmail.com)\n - Manabu Ishii (manabu@genome-analytics.co.jp)\n\
     \ - Tomoya Tanjo (tanjo@nii.ac.jp)"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/27
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/26
   nominated_participant: "- Hirotaka Suetake (suehiro619@gmail.com)\n - Tomoya Tanjo\
     \ (tanjo@nii.ac.jp)"
   number: '41'
   number_of_expected_hacking_days: 4 days
-  project_number: 27
+  project_number: '26'
   title: Sapporo WES as a Public Web Service
 - abstract: "Analysis of \u2018omics\u2019 datasets in biomedicine is challenging\
     \ due to their high dimensionality and a multitude of necessary processing steps.\
@@ -806,12 +773,12 @@ project_list:
     \ Tools Platform"
   leads: "1) Marek Ostaszewski, marek.ostaszewski@uni.lu, corresponding author\n 2)\
     \ Andrew P. Stubbs, a.stubbs@erasmusmc.nl\n 3) Chris T. Evelo chris.evelo@maastrichtuniversity.nl"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/28
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/27
   nominated_participant: "Willem de Koning, Erasmus MC, w.dekoning@erasmusmc.nl\n\
     \ Helena Rasche, Erasmus MC, helena.rasche@gmail.com"
   number: '43'
   number_of_expected_hacking_days: '4'
-  project_number: 28
+  project_number: '27'
   title: An interface between Galaxy and disease maps
 - abstract: "The Global Alliance for Genomics and Health (GA4GH) Beacon Project has\
     \ shown its great potential in federated discovery of genomic data. It is originally\
@@ -843,40 +810,14 @@ project_list:
   leads: "Dr. Venkata Satagopam venkata.satagopam@elixir-luxembourg.org (corresponding\
     \ author-author1)\n Dr. Salvador Capella salvador.capella@bsc.es\n Dr. Jordi Rambla\
     \ De Argila jordi.rambla@crg.eu\n Dr. Wei Gu wei.gu@elixir-luxembourg.org"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/29
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/28
   nominated_participant: "Dr. Tim Beck \n UKRI Innovation Fellow at Health Data Research\
     \ UK\n Email: timbeck@leicester.ac.uk\n \n Kees van Bochove \n Thehyve (and EHDEN)\n\
     \ Email: kees@thehyve.nl"
   number: '44'
   number_of_expected_hacking_days: 4 days
-  project_number: 29
+  project_number: '28'
   title: "Beacon for clinical and translational data\u2019"
-- abstract: Services Bundles are a new mechanism to identify how ELIXIR platforms
-    and communities are able to address specific user needs. In the context of the
-    Service Bundles pilots around Rare Disease we propose a project aimed to complete
-    the offer of the Service Bundles identified so far. The Project will have a dual
-    aspect of creation of containers of the tools not yet available in the BioContainers
-    registry and defining the workflows targeting the use cases driving the Service
-    Bundles. On the BioContainer front we plan to contribute to the recipes in BioConda
-    and take advantage of the ELIXIR ...
-  authors: Giacomo Tartari
-  decision: Accepted
-  expected_audience: "People involved in the Rare Disease Service bundle Pilots.\n\
-    \ People interested in adding tools to the BioContainers ecosystem.\n People interested\
-    \ in creating CWL workflows."
-  expected_outcomes: 'Expected outcome: this effort will improve the visibility and
-    usability of the pilot Service Bundles, and pave the road ahead for the future
-    Service Bundles being considered.'
-  hacking_topic: "Containers\n Rare Disease"
-  leads: "Emidio Capriotti <emidio.capriotti@unibo.it>\n Michael R. Crusoe <mrc@commonwl.org>"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/30
-  nominated_participant: "Emidio Capriotti <emidio.capriotti@unibo.it>\n Michael R.\
-    \ Crusoe <mrc@commonwl.org>"
-  number: '45'
-  number_of_expected_hacking_days: '4'
-  project_number: 30
-  title: Further development of Service Bundle pilots and integration with the ELIXIR
-    ecosystem
 - abstract: In the context of ELIXIR-CONVERGE, a pilot Learning Path (LP) in Data
     Stewardship, Management and Analysis (DSMA) for the Life Sciences will be designed
     (phase 1), delivered (phase 2) and assessed (phase 3). This task will build on
@@ -904,11 +845,11 @@ project_list:
     \ Celia van Gelder; celia.van.gelder@dtls.nl\n Jessica Lindvall; jessica.lindvall@nbis.se\n\
     \ Patricia Palagi; Patricia.Palagi@sib.swiss\n Alexia Cardona; ac812@cam.ac.uk\n\
     \ Victoria Dominguez del Angel; victoria.dominguez@france-bioinformatique.fr"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/31
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/29
   nominated_participant: "Patricia Palagi \n Alexia Cardona"
   number: '47'
   number_of_expected_hacking_days: '4'
-  project_number: 31
+  project_number: '29'
   title: Design of a modular learning path (curriculum) in Data Stewardship, Management
     and Analysis for the Life Sciences
 - abstract: Epidemiological data is necessary to monitor public health, and to assess
@@ -941,12 +882,12 @@ project_list:
     \ [ robert.hoehndorf@kaust.edu.sa ], \n Paul N Schofield [ pns12@hermes.cam.ac.uk\
     \ ], \n Philippe Rocca-Serra [ philippe.rocca-serra@oerc.ox.ac.uk ]\n Rajaram\
     \ Kaliyaperumal [ R.Kaliyaperumal@lumc.nl ]"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/32
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/30
   nominated_participant: "N\xFAria Queralt-Rosinach [ nqueralt.r@gmail.com ],\n Rajaram\
     \ Kaliyaperumal [ R.Kaliyaperumal@lumc.nl ]"
   number: '49'
   number_of_expected_hacking_days: 4 days
-  project_number: 32
+  project_number: '30'
   title: Epidemiology and monitoring ontology for COVID-19
 - abstract: Packaging tools in containers is becoming a common practice in bioinformatics
     to ensure reproducible research. However, usage of orchestration platforms, such
@@ -967,12 +908,12 @@ project_list:
     \ and orchestration"
   hacking_topic: "Compute Platfrom\n Containers\n EOSC-life\n Galaxy\n Tools Platform"
   leads: Kiran K Telukunta <kiran.telukunta@psb.vib-ugent.be>
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/33
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/31
   nominated_participant: "Pablo Moreno<pmoreno@ebi.ac.uk> Expression Atlas Data Production\
     \ Project Lead\n Nuwan Goonasekera<nuwan.goonasekera@unimelb.edu.au>"
   number: '50'
   number_of_expected_hacking_days: '4'
-  project_number: 33
+  project_number: '31'
   title: Deploying biocontainers in orchestration environments for life science research
 - abstract: Despite the general demand for research data that meet FAIR principles
     (Findability, Accessibility, Interoperability and Reusability), there are very
@@ -995,12 +936,12 @@ project_list:
   hacking_topic: "Data Platform\n Interoperability Platform\n Plant Sciences\n Tools\
     \ Platform"
   leads: "Name: Flora D\u2019Anna\n Email: flora.danna@ugent.vib.be"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/34
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/32
   nominated_participant: "- Stuart Owen, UMAN for FAIRDOMHub/SEEK, stuart.owen@manchester.ac.uk\n\
     \ - Philippe Rocca-Serra, Uni of Oxford for ISA format, philippe.rocca-serra@oerc.ox.ac.uk"
   number: '52'
   number_of_expected_hacking_days: 4 days
-  project_number: 34
+  project_number: '32'
   title: 'User interface for plant experimental metadata management: EBI(DSP)-ISA-FAIRDOMHub/SEEK
     harmonization'
 - abstract: When sequencing DNA from an organism, it is standard practice to create
@@ -1026,11 +967,11 @@ project_list:
   leads: "Quentin Groom quentin.groom@plantentuinmeise.be (corresponding author)\n\
     \ Mathias Dillen mathias.dillen@plantentuinmeise.be\n Pieter Huybrechts pieter.huybrechts@plantentuinmeise.be\n\
     \ Maarten Trekels maarten.trekels@plantentuinmeise.be\n Andra Waagmeester andra@micel.io"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/35
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/33
   nominated_participant: Maarten Trekels
   number: '53'
   number_of_expected_hacking_days: '4'
-  project_number: 35
+  project_number: '33'
   title: Connecting molecular sequence to their voucher specimens
 - abstract: The development of biomedical high-throughput technologies has made omic
     analyses more affordable and, thus, accessible. This technological boom has rapidly
@@ -1070,12 +1011,12 @@ project_list:
   leads: "Maria Pe\xF1a-Chilet (author)\n mariapch84@gmail.com\n \n Joaquin Dopazo\
     \ (corresponing author)\n joaquin.dopazo@juntadeandalucia.es\n Clinical Bioinformatics\
     \ Area - FPS (Fundacion Progreso y Salud)"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/36
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/34
   nominated_participant: "Maria Pe\xF1a-Chilet mariapch84@gmail.com\n Jose Luis Fernandez-Rueda\
     \ josel.fernandez.rueda@juntadeandalucia.es"
   number: '54'
   number_of_expected_hacking_days: 4 days
-  project_number: 36
+  project_number: '34'
   title: Development of a tool for mechanistic meta-analyses using COVID-19 available
     data as proof of concept
 - abstract: During the last years there were multiple biohackathon efforts to develop
@@ -1103,12 +1044,12 @@ project_list:
   leads: "Jose Emilio Labra Gayo, labra@uniovi.es (corresponding author)\n Andra Waagmeester,\
     \ andra@micel.io\n Eric Prud\u2019hommeaux, eric@w3.org\n Dan Brickley, danbri@danbri.org\n\
     \ John Samuel, john.samuel@cpe.fr"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/37
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/35
   nominated_participant: "Alejandro Gonz\xE1lez Hevia, alendrgh11@gmail.com\n Jose\
     \ Emilio Labra Gayo, labra@uniovi.es"
   number: '55'
   number_of_expected_hacking_days: '4'
-  project_number: 37
+  project_number: '35'
   title: Knowledge graphs and wikidata subsetting
 - abstract: InterMine, an ELIXIR Recommended Interoperability Resource, is an open
     source biological data warehouse deployed worldwide with instances focused on
@@ -1126,13 +1067,101 @@ project_list:
     manipulate and plot the query result data, with feedback displayed in the webapp.
   hacking_topic: Interoperability Platform
   leads: Kevin Herald Reierskog - khr29@cam.ac.uk
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/38
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/36
   nominated_participant: "Kevin Herald Reierskog - khr29@cam.ac.uk\n Sergio Contrino\
     \ - contrino.it@gmail.com"
   number: '56'
   number_of_expected_hacking_days: '4'
-  project_number: 38
+  project_number: '36'
   title: Enabling interactive R analyses in the InterMine user interface
+- abstract: From the interpretation of variant to large scale data sciences, it is
+    essential to use biomedical databases in an integrated manner. For this purpose,
+    we produced Resource Description Framework (RDF) datasets in the Med2RDF project
+    (http://med2rdf.org/) including ClinVar, ExAC/gnomAD, ICGC, CIViC, DGIdb, HiNT,
+    INstruct, CCLE, dbNSFP, MedGen, and HGNC. However, the utilization of integrated
+    data was still hard for users (especially non-engineers) due to a lack of the
+    best tooling to capture the complex data models. Actually, although RDF datasets
+    have been constructed around the world, they ...
+  authors: Toshiaki Katayama
+  decision: Accepted
+  expected_audience: "Biomedical database developers and users,\n Data scientists\
+    \ and Machine learning experts,\n Biomedical researchers who have experience of\
+    \ clinical interpretation"
+  expected_outcomes: "Provides a data science platform for the biomedical domain by\
+    \ creating:\n * schema diagrams for each database\n * queries for each database\n\
+    \ * integrated use of databases\n * machine-learning applications"
+  hacking_topic: "Data Platform\n Interoperability Platform\n Machine learning\n Tools\
+    \ Platform"
+  leads: Toshiaki Katayama <ktym@dbcls.jp>
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/37
+  nominated_participant: "Toshiaki Katayama <ktym@dbcls.jp>\n Shuichi Kawashima <kwsm@dbcls.rois.ac.jp>\n\
+    \ Daisuke Satoh <daisuke.satoh@lifematics.co.jp>\n Ryosuke Kojima <kojima.ryosuke.8e@kyoto-u.ac.jp>\n\
+    \ Mayumi Kamada <mkamada@kuhp.kyoto-u.ac.jp>"
+  number: '58'
+  number_of_expected_hacking_days: 4 days
+  project_number: '37'
+  title: Accelerating integrated use of biomedical databases through semantic data
+    modeling
+- abstract: "https://docs.google.com/document/d/1buY6kI4ysiD8g6PoFYyknHZnaSDfdGfIszd04J9kVLM/edit#\
+    \ Machine learning in high-variability areas, such as food and nutrition, is a\
+    \ very complex problem. Data mining with machine learning is an urgency for the\
+    \ study of dietary intolerance and allergies, especially when accurate labeling\
+    \ is required by laws. Large-scale databasing also introduces demands for structuring\
+    \ information of manufacturer\u2019s data. Lack of semantic implementation to\
+    \ structure food data is a resolvable challenge that can be overcome by using\
+    \ existing technologies equipped with knowledge ..."
+  authors: Sirarat Sarntivijai
+  decision: Accepted
+  expected_audience: "- members learning database curation by ontologies\n - building\
+    \ application ontologies"
+  expected_outcomes: "1) A summary of findings - Pros & Cons of each wine ontology\
+    \ examined and their capability of data integration and interoperability.\n 2)\
+    \ The test dataset that is curated and mapped to existing wine ontology (-ies)\
+    \ with a follow-up plan of technical implementation at the wine merchant\u2019\
+    s database.\n 3) A report of interoperability between the wine ontologies and\
+    \ Food Ontology for reuse of FoodOn as an application ontology in the practice."
+  hacking_topic: "Data Platform\n industry\n Interoperability Platform\n Training\
+    \ Platform"
+  leads: "Sirarat Sarntivijai, sirarat.sarntivijai@elixir-europe.org\n Jane Lomax,\
+    \ jane@scibite.com\n Damion Dooley, Damion.Dooley@bccdc.ca\n Joan Marc Reira,\
+    \ marc@ribox.co.uk"
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/38
+  nominated_participant: '- local wine expert (to be named)'
+  number: '4'
+  number_of_expected_hacking_days: 2-4
+  project_number: '38'
+  title: 'Wine (Ontology) Tasting: testing technicality in practicality for the food
+    industry'
+- abstract: The exponential growth of high throughput devices, such as next generation
+    sequencing or electron microscopy is generating an unprecedent amount of raw data
+    that needs to be processed, analysed and exploited. The challenge lies in the
+    capability to turn the big data produced by the life sciences workflows into actionable
+    insights. How to do that as quickly as possible while ensuring that all data remains
+    safe and secure? BullSequana Edge has been designed to meet these challenges,
+    delivering powerful AI inference and streaming analytics capabilities at the edge.
+    We propose you to prove the ...
+  authors: Natalia Jimenez
+  decision: Accepted
+  expected_audience: "Researchers developing workflows\n Any research with an interest\
+    \ in accelerating an application \n Galaxy users\n Anyone with an interest in\
+    \ exploring edge computing"
+  expected_outcomes: "There are no rules or constraints; we want you to enjoy playing\
+    \ with Atos Edge, however, we would be interested in watching a demo of your work\
+    \ at the end of the bio hackathon. \n What we want to prove is that traditional\
+    \ data centres and edge computing are the perfect blend to provide powerful analytics\
+    \ and machine learning inference capabilities."
+  hacking_topic: "Compute Platfrom\n Galaxy\n Machine learning"
+  leads: "Author 1, Nicholas Allsopp - nicholas.allsopp@atos.net\n Author 2, Albert\
+    \ Trill - albert.trill@atos.net"
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/39
+  nominated_participant: "Author 1, Nicholas Allsopp - nicholas.allsopp@atos.net\n\
+    \ Author 2, Albert Trill - albert.trill@atos.net"
+  number: '21'
+  number_of_expected_hacking_days: That would depend on the nature of the workflow,
+    application or use case chosen by the hacker. We would expect an average of three
+    days.
+  project_number: '39'
+  title: Unlock the value of your data computing at the edge
 - abstract: "We will create a cloud-native server instance that generates cancer graph\
     \ variations and translates them into an OMOP compliant medical record format.\
     \ The tumor genome is a combination of somatic variants atop a germline background.\
@@ -1153,38 +1182,36 @@ project_list:
     \ Platform"
   leads: "Ben Busby bbusby@dnanexus.com\n Jason Chin jchin@dnanexus.com\n eric.t.dawson@gmail.com\n\
     \ anc174@pitt.edu\n nick.giangreco@gmail.com"
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/39
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/40
   nominated_participant: "Andrew Clugston -- anc174@pitt.edu\n Nick Giangreco -- nick.giangreco@gmail.com"
   number: '57'
   number_of_expected_hacking_days: '4'
-  project_number: 39
+  project_number: '40'
   title: Creation of a cloud-native server instance that translates cancer graph variations
     into an OMOP compliant medical record format.
-- abstract: From the interpretation of variant to large scale data sciences, it is
-    essential to use biomedical databases in an integrated manner. For this purpose,
-    we produced Resource Description Framework (RDF) datasets in the Med2RDF project
-    (http://med2rdf.org/) including ClinVar, ExAC/gnomAD, ICGC, CIViC, DGIdb, HiNT,
-    INstruct, CCLE, dbNSFP, MedGen, and HGNC. However, the utilization of integrated
-    data was still hard for users (especially non-engineers) due to a lack of the
-    best tooling to capture the complex data models. Actually, although RDF datasets
-    have been constructed around the world, they ...
-  authors: Toshiaki Katayama
+- abstract: Services Bundles are a new mechanism to identify how ELIXIR platforms
+    and communities are able to address specific user needs. In the context of the
+    Service Bundles pilots around Rare Disease we propose a project aimed to complete
+    the offer of the Service Bundles identified so far. The Project will have a dual
+    aspect of creation of containers of the tools not yet available in the BioContainers
+    registry and defining the workflows targeting the use cases driving the Service
+    Bundles. On the BioContainer front we plan to contribute to the recipes in BioConda
+    and take advantage of the ELIXIR ...
+  authors: Giacomo Tartari
   decision: Accepted
-  expected_audience: "Biomedical database developers and users,\n Data scientists\
-    \ and Machine learning experts,\n Biomedical researchers who have experience of\
-    \ clinical interpretation"
-  expected_outcomes: "Provides a data science platform for the biomedical domain by\
-    \ creating:\n * schema diagrams for each database\n * queries for each database\n\
-    \ * integrated use of databases\n * machine-learning applications"
-  hacking_topic: "Data Platform\n Interoperability Platform\n Machine learning\n Tools\
-    \ Platform"
-  leads: Toshiaki Katayama <ktym@dbcls.jp>
-  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/40
-  nominated_participant: "Toshiaki Katayama <ktym@dbcls.jp>\n Shuichi Kawashima <kwsm@dbcls.rois.ac.jp>\n\
-    \ Daisuke Satoh <daisuke.satoh@lifematics.co.jp>\n Ryosuke Kojima <kojima.ryosuke.8e@kyoto-u.ac.jp>\n\
-    \ Mayumi Kamada <mkamada@kuhp.kyoto-u.ac.jp>"
-  number: '58'
-  number_of_expected_hacking_days: 4 days
-  project_number: 40
-  title: Accelerating integrated use of biomedical databases through semantic data
-    modeling
+  expected_audience: "People involved in the Rare Disease Service bundle Pilots.\n\
+    \ People interested in adding tools to the BioContainers ecosystem.\n People interested\
+    \ in creating CWL workflows."
+  expected_outcomes: 'Expected outcome: this effort will improve the visibility and
+    usability of the pilot Service Bundles, and pave the road ahead for the future
+    Service Bundles being considered.'
+  hacking_topic: "Containers\n Rare Disease"
+  leads: "Emidio Capriotti <emidio.capriotti@unibo.it>\n Michael R. Crusoe <mrc@commonwl.org>"
+  link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/41
+  nominated_participant: "Emidio Capriotti <emidio.capriotti@unibo.it>\n Michael R.\
+    \ Crusoe <mrc@commonwl.org>"
+  number: '45'
+  number_of_expected_hacking_days: '4'
+  project_number: '41'
+  title: Further development of Service Bundle pilots and integration with the ELIXIR
+    ecosystem

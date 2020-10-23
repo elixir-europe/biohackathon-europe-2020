@@ -1053,29 +1053,27 @@ project_list:
     number_of_expected_hacking_days: '4'
     project_number: '35'
     title: Knowledge graphs and wikidata subsetting
-  - abstract: InterMine, an ELIXIR Recommended Interoperability Resource, is an open
-      source biological data warehouse deployed worldwide with instances focused on
-      model organisms, human data and even drug targets. There are multiple interfaces
-      to the data, such as RESTful web API, an interactive web application, as well
-      as clients for popular programming languages like Python, JavaScript, Java and
-      R. The current webapp is in the process of being replaced by a modern frontend
-      stack, called BlueGenes. We have developed multiple visualization tools for use
-      in BlueGenes ...
-    authors: Kevin Herald Reierskog
+  - abstract: V-pipe (a SIB Software Resource) is a bioinformatics pipeline for high 
+      throughput sequencing of Viral genomes. It takes raw reads as input, performs 
+      quality control, read alignment and produces consensus sequences and analyses 
+      intra-host variations, SNVs and haplotypes at both local (windows) level and 
+      global level. Since the beginning of the SARS-CoV-2 pandemic, it has been 
+      applied (SIB video) to a large-scale sequencing project in Switzerland 
+      (it currently processes ~75% of all samples in Switzerland) ...
+    authors: Ivan Topolsky
     decision: Accepted
-    expected_audience: "- Experience with sandboxing language runtimes to safely execute\
-      \ untrusted code\n - People with experience in R"
-    expected_outcomes: Provide a functional R editor in BlueGenes that allows you to
-      manipulate and plot the query result data, with feedback displayed in the webapp.
+    expected_audience: "- Python, HTML, Javascript, Snakemake, Virology"
+    expected_outcomes: Ability to look up variants in databases such as Swiss Model, 
+      Small proof-of-concept web servlet that can translate GET requests into the 
+      API of databases. Cohort-wide visualisations. 
     hacking_topic: Interoperability Platform
-    leads: Kevin Herald Reierskog - khr29@cam.ac.uk
+    leads: Ivan Topolsky - ivan.topolsky@sib.swiss
     link: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/36
-    nominated_participant: "Kevin Herald Reierskog - khr29@cam.ac.uk\n Sergio Contrino\
-      \ - contrino.it@gmail.com"
+    nominated_participant: "TBA"
     number: '56'
-    number_of_expected_hacking_days: '4'
+    number_of_expected_hacking_days: '3'
     project_number: '36'
-    title: Enabling interactive R analyses in the InterMine user interface
+    title: Project 36: V-pipe applied to SARS-CoV-2 --- Interlinking reports with other databases
   - abstract: From the interpretation of variant to large scale data sciences, it is
       essential to use biomedical databases in an integrated manner. For this purpose,
       we produced Resource Description Framework (RDF) datasets in the Med2RDF project

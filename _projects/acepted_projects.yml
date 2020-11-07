@@ -1075,7 +1075,7 @@ project_list:
     number: '56'
     number_of_expected_hacking_days: '4'
     project_number: '36'
-    title: Enabling interactive R analyses in the InterMine user interface
+    title: V-pipe applied to SARS-CoV-2 --- Interlinking reports with other databases
   - abstract: From the interpretation of variant to large scale data sciences, it is
       essential to use biomedical databases in an integrated manner. For this purpose,
       we produced Resource Description Framework (RDF) datasets in the Med2RDF project
@@ -1132,8 +1132,7 @@ project_list:
     number: '4'
     number_of_expected_hacking_days: 2-4
     project_number: '38'
-    title: 'Wine (Ontology) Tasting: testing technicality in practicality for the food
-      industry'
+    title: 'Panoptes: monitor computational workflows in real time'
   - abstract: The exponential growth of high throughput devices, such as next generation
       sequencing or electron microscopy is generating an unprecedent amount of raw data
       that needs to be processed, analysed and exploited. The challenge lies in the
